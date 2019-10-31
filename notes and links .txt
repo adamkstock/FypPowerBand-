@@ -1,0 +1,75 @@
+Hi Adam,
+
+Here are some links from the arm seminar,
+
+https://www.youtube.com/watch?v=DA1ojh47QZ8
+
+https://www.youtube.com/watch?v=gGI-j6U3aw4
+
+https://www.youtube.com/watch?v=jmR9xjqSK6A&list=PLr8iflX7VSArvILoz48LmB4ElLM7o-9Jq
+
+Craig
+
+searches ------
+
+https://scholar.google.co.uk/scholar?hl=en&as_sdt=0%2C5&q=energy+harvesting+mechanical+watch&btnG=
+
+----------
+
+links----
+
+http://www.cypress.com/file/216471/download
+
+https://www.mide.com/collections/vibration-energy-harvesting-with-protected-piezos
+
+https://www.precisionmicrodrives.com/content/using-dc-motors-for-energy-harvest-or-lras-for-vibration-detection/
+
+https://ieeexplore.ieee.org/abstract/document/5071287
+
+----
+
+mechanical watch energy harvesting 
+http://mechanicaldesign.asmedigitalcollection.asme.org/article.aspx?articleid=1472547
+
+this could work !!! ---- 
+https://www.st.com/en/power-management/spv1050.html#samplebuy-scroll
+
+potential chip !!! 
+https://www.mouser.co.uk/new/nxp-semiconductors/nxp-qn902x/
+https://www.mouser.co.uk/new/nxp-semiconductors/nxp-qn9080/
+
+
+
+chipcon cc2430 
+
+
+
+find board with hardware i req 
+find cross complier / ble  lib ( maybe from microbit?)
+
+model power - interrupt/polling 
+
+
+
+https://uk.farnell.com/nxp/qn9080chny/mcu-32bit-32mhz-hvqfn-48/dp/2775185RL?st=qn9080
+https://uk.farnell.com/nxp/qn9080-dk/dev-board-bluetooth-low-energy/dp/2775176?CMP=GRHB-OCTOPART
+https://octopart.com/qn9080-dk-nxp+semiconductors-84298143
+
+can this be used ? - uses same sw as esd 
+https://uk.farnell.com/texas-instruments/launchxl-cc2640r2/dev-board-bluetooth-low-energy/dp/2766604
+
+comes as a qfn package - 
+https://www.youtube.com/watch?v=c_Qt5CtUlqY
+
+
+research write up 
+get board 
+requirements - moscow 
+placeholders for a design -dataflows/finite state 
+
+
+
+end of nov - finish research section 
+make good start at requirements 
+
+ms project critical path 
