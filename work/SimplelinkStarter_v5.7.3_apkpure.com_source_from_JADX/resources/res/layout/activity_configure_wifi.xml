@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="10dp">
+        <ImageView android:id="@+id/imageView2" android:paddingTop="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="0dp" android:layout_marginTop="0dp" android:src="@mipmap/sensortag_wifi_with_battery_pull_tab" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+        <TextView android:textSize="15sp" android:gravity="center" android:id="@+id/textView9" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="@string/new_device_instructions" android:layout_below="@+id/imageView2"/>
+        <ProgressBar android:layout_gravity="center_horizontal" android:id="@+id/acw_search_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50dp" android:layout_marginTop="38dp" android:layout_marginRight="50dp" android:layout_below="@+id/textView9" android:layout_centerHorizontal="true" style="?android:attr/progressBarStyleLarge"/>
+    </RelativeLayout>
+</RelativeLayout>

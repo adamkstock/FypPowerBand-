@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="1">
+    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/ab_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Broadcast View" android:textAlignment="center"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/imageView8" android:layout_width="78dp" android:layout_height="wrap_content" android:src="@mipmap/cc2650_launchpad"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="0.1">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:id="@+id/textView40" android:paddingTop="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="BT Addr:" android:layout_weight="1"/>
+                <TextView android:id="@+id/ab_bt_addr_label" android:paddingTop="5dp" android:layout_width="214dp" android:layout_height="wrap_content" android:text="00:00:00:00:00:00" android:textAlignment="textEnd" android:paddingEnd="5dp"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:id="@+id/textView48" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="RSSI:" android:layout_weight="1"/>
+                <TextView android:id="@+id/ab_rssi_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0dB" android:layout_weight="3.19" android:textAlignment="textEnd"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textView53" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Advertisement Data" android:textAlignment="center"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="152dp">
+        <TableLayout android:id="@+id/ab_adv_data_table" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include android:id="@+id/adv_data_table_row" layout="@layout/adv_data_table_row"/>
+        </TableLayout>
+    </ScrollView>
+    <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/ab_service_data_title" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Service Data" android:textAlignment="center"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="152dp">
+        <TableLayout android:id="@+id/srv_data_table" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include android:id="@+id/adv_data_table_row" layout="@layout/adv_data_table_row"/>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

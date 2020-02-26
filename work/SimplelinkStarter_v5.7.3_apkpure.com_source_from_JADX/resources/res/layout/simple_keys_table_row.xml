@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="150dp">
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/sktr_icon" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@mipmap/sensortag2_simplekeys" android:layout_weight="0.1"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="#666" android:id="@+id/sktr_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/keys"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="70dp">
+            <ImageView android:id="@+id/sktr_left_button_image" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/left_key_off" android:layout_weight="1"/>
+            <ImageView android:id="@+id/sktr_right_button_image" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/right_key_off" android:layout_weight="1"/>
+            <ImageView android:id="@+id/sktr_reed_image" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/reed_relay_off" android:layout_weight="1"/>
+        </LinearLayout>
+        <com.p004ti.util.TrippleSparkLineView android:layout_gravity="top" android:id="@+id/sktr_sparkline" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/sktr_disclosure_indicator" android:visibility="invisible" android:layout_width="25dp" android:layout_height="wrap_content" android:src="@mipmap/cell_disclose_indicator" android:layout_weight="0.1"/>
+</TableRow>

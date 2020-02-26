@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="12sp" android:id="@+id/textView76" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/fff_sm_title"/>
+    <TextView android:textSize="16sp" android:gravity="center" android:id="@+id/textView79" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/fff_description_label"/>
+    <Spinner android:entries="@array/smSpinnerItems" android:id="@+id/fffsm_spinner" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:prompt="@string/fffsm_spinner_prompt" android:spinnerMode="dialog"/>
+    <TextView android:textSize="10sp" android:gravity="center" android:id="@+id/fffsm_status_label" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:text="@string/fff_status_text"/>
+</LinearLayout>

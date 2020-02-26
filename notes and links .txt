@@ -73,3 +73,28 @@ end of nov - finish research section
 make good start at requirements 
 
 ms project critical path 
+
+
+
+
+
+https://stackoverflow.com/questions/16475979/what-is-the-difference-between-functional-and-non-functional-requirement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sequence diagram - see phone pic 

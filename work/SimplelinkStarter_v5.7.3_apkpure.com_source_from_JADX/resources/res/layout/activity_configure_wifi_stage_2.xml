@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/scrollView9" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+        <TableLayout android:id="@+id/acwstwo_deviceTable" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </ScrollView>
+    <ProgressBar android:layout_gravity="center_horizontal" android:id="@+id/stage_two_progress_bar" android:padding="30dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="3" android:layout_below="@+id/acwstwo_deviceTable" android:layout_centerHorizontal="true" style="?android:attr/progressBarStyleLarge"/>
+</LinearLayout>

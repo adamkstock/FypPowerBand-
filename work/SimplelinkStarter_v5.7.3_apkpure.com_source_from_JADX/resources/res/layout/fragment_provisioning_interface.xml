@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="10dp">
+    <TextView android:textSize="12sp" android:id="@+id/textView76" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/fp_prov_title"/>
+    <TextView android:textSize="18sp" android:layout_gravity="center" android:id="@+id/adp_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40px" android:text="@string/adp_title" android:fontFamily="sans-serif" android:textAlignment="center"/>
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textStyle="bold" android:layout_gravity="center_horizontal" android:id="@+id/adp_provisioning_state_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/adp_provisioning_state_text" android:textAlignment="center"/>
+    <ImageView android:id="@+id/adp_provisioning_icon" android:layout_width="match_parent" android:layout_height="150dp" android:layout_marginTop="20px" android:src="@mipmap/dual_band_node_launchpad_unprovisioned"/>
+    <TextView android:layout_gravity="center" android:id="@+id/adp_current_pan_id_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20px" android:text="@string/adp_current_pan_id_label" android:textAlignment="center"/>
+    <TextView android:textStyle="bold" android:layout_gravity="center" android:id="@+id/adp_current_pan_id_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/adp_current_pan_id_text" android:textAlignment="center"/>
+    <TextView android:layout_gravity="center" android:id="@+id/adp_current_network_mask_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20px" android:text="@string/adp_current_network_mask_label" android:textAlignment="center"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="12sp" android:id="@+id/adp_ch_mask_low_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/adp_ch_mask_low_label" android:layout_weight="1"/>
+        <TextView android:textSize="12sp" android:textStyle="bold" android:id="@+id/adp_channel_mask_low_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/adp_ch_mask_low_default" android:layout_weight="1" android:textAlignment="viewEnd"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="12sp" android:id="@+id/adp_ch_mask_high_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/adp_ch_mask_high_label" android:layout_weight="1"/>
+        <TextView android:textSize="12sp" android:textStyle="bold" android:id="@+id/adp_channel_mask_high_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/adp_ch_mask_high_default" android:layout_weight="1" android:textAlignment="viewEnd"/>
+    </LinearLayout>
+    <Button android:id="@+id/adp_set_pan_id_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10px" android:layout_marginRight="10px" android:text="@string/adp_set_pan_id_button_text"/>
+    <Button android:id="@+id/adp_set_network_mask_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10px" android:layout_marginRight="10px" android:text="@string/adp_set_network_channel_mask_button_text"/>
+    <Button android:id="@+id/adp_start_prov_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10px" android:layout_marginRight="10px" android:text="@string/adp_start_provisioning_button_text"/>
+</LinearLayout>

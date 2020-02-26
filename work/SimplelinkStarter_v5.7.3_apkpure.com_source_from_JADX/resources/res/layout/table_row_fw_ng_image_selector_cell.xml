@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="?android:attr/selectableItemBackground" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="50dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="0.9">
+            <TextView android:textAppearance="@style/TextAppearance.Material.Large" android:textColor="@android:color/black" android:id="@+id/trfnis_circuit_name" android:paddingLeft="20dp" android:paddingRight="20dp" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="TextView"/>
+            <TextView android:textSize="12sp" android:textColor="@android:color/black" android:id="@+id/trfnis_circuit_description" android:paddingLeft="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="TextView" android:paddingEnd="20dp"/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/imageView9" android:paddingRight="20dp" android:layout_width="45dp" android:layout_height="match_parent" android:src="@mipmap/cell_disclose_indicator" android:layout_weight="0.1"/>
+    </LinearLayout>
+    <TextView android:id="@+id/textView77" android:background="@color/ti_table_background_splitter" android:layout_width="wrap_content" android:layout_height="1dp"/>
+</TableRow>

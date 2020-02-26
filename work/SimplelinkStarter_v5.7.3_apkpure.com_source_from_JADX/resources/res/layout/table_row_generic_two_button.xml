@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/trgtb_row" android:background="?android:attr/selectableItemBackground" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/trgtb_icon" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@mipmap/cc2650_launchpad" android:layout_weight="0.1"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="130dp" android:layout_weight="1">
+        <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="#666" android:id="@+id/trgtb_characteristic_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/table_row_generic_table_row"/>
+        <Button android:id="@+id/trgtb_button_one" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Button"/>
+        <Button android:id="@+id/trgtb_button_two" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Button"/>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/trgtb_disclosure_indicator" android:visibility="invisible" android:layout_width="25dp" android:layout_height="wrap_content" android:src="@mipmap/cell_disclose_indicator" android:layout_weight="0.1"/>
+</TableRow>

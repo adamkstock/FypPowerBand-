@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="cloud_config_dialog_cloud_services_array">
+        <item>IBM Watson IoT Quick Start</item>
+        <item>IBM Watson IoT Platform</item>
+        <item>Dweet.io</item>
+        <item>Custom</item>
+    </array>
+    <array name="smSpinnerItems">
+        <item>Passkey</item>
+        <item>Default Code</item>
+        <item>Just Allow</item>
+    </array>
+    <array name="wifi_Security_types">
+        <item>None</item>
+        <item>WEP</item>
+        <item>WPA 1</item>
+        <item>WPA 2</item>
+    </array>
+</resources>

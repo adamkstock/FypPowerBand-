@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/adv_data_table_row" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:paddingTop="5dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textStyle="bold" android:id="@+id/advdtr_datatype" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Manufacturer Data:" android:singleLine="true" android:layout_weight="100"/>
+            <TextView android:id="@+id/advdtr_data_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Texas Instruments" android:layout_weight="0.1" android:textAlignment="textEnd"/>
+        </LinearLayout>
+        <TextView android:textSize="12sp" android:textColor="#000000" android:id="@+id/advdtr_data_value" android:paddingTop="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="12345678912345678912345674891234567891234567891234567498123456789" android:lines="2" android:maxEms="50" android:singleLine="false"/>
+    </LinearLayout>
+</TableRow>

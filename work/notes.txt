@@ -1,0 +1,36 @@
+php tutorial 
+	https://www.androidhive.info/2012/05/how-to-connect-android-with-php-mysql/
+wamp test 
+	http://localhost/android_connect/test.php
+MYSQL setup
+	CREATE DATABASE androidhive;
+	CREATE TABLE products(
+	pid int(11) primary key auto_increment,
+	name varchar(100) not null,
+	price decimal(10,2) not null,
+	description text,
+	created_at timestamp default now(),
+	updated_at timestamp
+	);
+MYSQL issues 
+	fixed many translating from mysql commands to mysqli 
+Android studio 
+	issues setting up resource 'R'
+issues with gettext 
+
+
+
+
+
+
+
+-------------------v002
+
+CREATE DATABASE fyppowerbandv002;
+
+CREATE TABLE users(
+id int(11) primary key auto_increment,
+forename varchar(100) not null,
+surname varchar(100) not null,
+bandstatus BOOLEAN not null 
+);

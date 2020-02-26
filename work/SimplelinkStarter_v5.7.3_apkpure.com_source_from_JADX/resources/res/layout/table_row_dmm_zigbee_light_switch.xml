@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="?android:attr/selectableItemBackground" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/tr_dmm_zigbee_switch_icon" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@mipmap/zigbee_light_switch" android:layout_weight="0.1"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="140dp" android:layout_weight="1">
+        <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="#666" android:id="@+id/tr_dmm_zigbee_switch_characteristic_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/table_row_generic_table_row"/>
+        <Switch android:id="@+id/tr_dmm_zigbee_light_switch" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Light On/Off" android:layout_weight="1"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="10sp" android:id="@+id/textView69" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Switch Info:" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="10sp" android:textStyle="bold" android:id="@+id/textView71" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Target Address Type:" android:layout_weight="1"/>
+            <TextView android:textSize="10sp" android:gravity="end" android:id="@+id/tr_dmm_zigbee_target_address_type_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tr_zigbee_target_address_type" android:layout_weight="1" android:textAlignment="viewEnd"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="10sp" android:textStyle="bold" android:id="@+id/textView90" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Target Address:" android:layout_weight="1"/>
+            <TextView android:textSize="10sp" android:gravity="end" android:id="@+id/tr_dmm_zigbee_target_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tr_zigbee_target_address" android:layout_weight="1" android:textAlignment="viewEnd"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="10sp" android:textStyle="bold" android:id="@+id/textView160" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Target Endpoint:" android:layout_weight="1"/>
+            <TextView android:textSize="10sp" android:gravity="end" android:id="@+id/tr_dmm_zigbee_target_endpoint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tr_dmm_zigbee_target_endpoint" android:layout_weight="1" android:textAlignment="viewEnd"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp">
+            <TextView android:textSize="10sp" android:textStyle="bold" android:id="@+id/textView162" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Switch Battery Level:" android:layout_weight="1"/>
+            <TextView android:textSize="10sp" android:gravity="end" android:id="@+id/tr_dmm_zigbee_switch_battery_level" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ti_dmm_zigbee_switch_battery_level" android:layout_weight="1" android:textAlignment="viewEnd"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/trgtb_disclosure_indicator" android:visibility="invisible" android:layout_width="25dp" android:layout_height="wrap_content" android:src="@mipmap/cell_disclose_indicator" android:layout_weight="0.1"/>
+</TableRow>

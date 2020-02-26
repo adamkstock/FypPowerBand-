@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="15dp" android:paddingEnd="15dp">
+    <RelativeLayout android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:id="@+id/textView11" android:paddingTop="15dp" android:paddingRight="40dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/network_ssid"/>
+        <AutoCompleteTextView android:id="@+id/wcd_ssid" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignTop="@+id/textView11" android:layout_centerVertical="true" android:layout_toEndOf="@+id/textView11"/>
+        <TextView android:id="@+id/textView12" android:paddingTop="25dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/security_type" android:layout_below="@+id/wcd_ssid" android:layout_alignParentStart="true"/>
+        <Spinner android:entries="@array/wifi_Security_types" android:id="@+id/wcd_security_spinner" android:paddingTop="25dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/wcd_ssid" android:layout_alignStart="@+id/wcd_security_key"/>
+        <TextView android:id="@+id/textView13" android:paddingTop="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/security_key" android:layout_below="@+id/wcd_security_spinner" android:layout_alignParentStart="true" android:labelFor="@+id/wcd_security_key"/>
+        <CheckBox android:id="@+id/pass_check_box" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@+id/wcd_security_key" android:layout_alignEnd="@+id/textView11"/>
+        <EditText android:enabled="true" android:id="@+id/wcd_security_key" android:layout_width="match_parent" android:layout_height="wrap_content" android:ems="10" android:password="false" android:layout_below="@+id/wcd_security_spinner" android:inputType="textPassword" android:layout_alignStart="@+id/wcd_ssid"/>
+    </RelativeLayout>
+</ScrollView>

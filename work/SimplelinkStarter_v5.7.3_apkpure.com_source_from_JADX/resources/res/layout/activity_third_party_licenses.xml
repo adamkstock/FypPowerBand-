@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textStyle="bold" android:id="@+id/textView10" android:paddingLeft="10dp" android:paddingTop="20dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="The Eclipse Paho project license :"/>
+    <ScrollView android:id="@+id/scrollView7" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="0.1">
+        <WebView android:id="@+id/atpl_eclipse_license" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </ScrollView>
+    <TextView android:textStyle="bold" android:id="@+id/textView25" android:paddingLeft="10dp" android:paddingTop="20dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="JmDNS project license :"/>
+    <ScrollView android:id="@+id/scrollView8" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="0.1">
+        <WebView android:id="@+id/atpl_apache_license" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </ScrollView>
+</LinearLayout>

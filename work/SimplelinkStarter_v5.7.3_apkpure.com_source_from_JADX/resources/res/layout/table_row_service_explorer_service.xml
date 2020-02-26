@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="5dp" android:paddingEnd="5dp">
+    <LinearLayout android:orientation="vertical" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="0.9">
+        <TextView android:textStyle="bold" android:id="@+id/trses_service_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="0 -  Service Name"/>
+        <TextView android:textSize="12sp" android:id="@+id/trses_characteristics" android:paddingTop="3dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="0 characteristics"/>
+        <TextView android:textSize="12sp" android:textColor="@color/colorAccent" android:id="@+id/trses_uuid_title" android:paddingTop="3dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="UUID : xxxx"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/imageView4" android:layout_width="20dp" android:layout_height="match_parent" android:src="@mipmap/cell_disclose_indicator" android:layout_weight="0.1"/>
+</TableRow>

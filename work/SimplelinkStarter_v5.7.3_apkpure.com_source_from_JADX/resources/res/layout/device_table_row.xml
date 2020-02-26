@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="?android:attr/selectableItemBackground" android:clickable="true" android:layout_width="match_parent" android:layout_height="70dp">
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/device_table_row_icon" android:padding="2dp" android:layout_width="50dp" android:layout_height="50dp" android:src="@mipmap/sensortag2" android:layout_weight="1"/>
+    <LinearLayout android:orientation="vertical" android:padding="3dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="30">
+        <TextView android:textStyle="bold" android:textColor="#000000" android:id="@+id/device_table_row_name" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sensortag"/>
+        <TextView android:textStyle="italic" android:textColor="#000000" android:id="@+id/device_table_row_bt_addr" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/eighty"/>
+        <TextView android:textSize="10sp" android:textColor="#000000" android:id="@+id/device_table_row_additional_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="10dp"/>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/device_table_row_rssi_level" android:padding="3dp" android:layout_width="50dp" android:layout_height="50dp" android:src="@mipmap/rssi_meter_0" android:layout_weight="1"/>
+</TableRow>

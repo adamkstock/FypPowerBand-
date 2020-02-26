@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/wcutr_tr" android:background="?android:attr/selectableItemBackground" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/wcutr_icon" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/wifisensortag_cloud" android:layout_weight="0.1"/>
+    <LinearLayout android:orientation="vertical" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textSize="18sp" android:textStyle="bold" android:id="@+id/wcutr_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/cloud_url"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textSize="10sp" android:id="@+id/wcutr_cloud_url" android:paddingTop="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cloud_url_with_colon"/>
+    </LinearLayout>
+</TableRow>

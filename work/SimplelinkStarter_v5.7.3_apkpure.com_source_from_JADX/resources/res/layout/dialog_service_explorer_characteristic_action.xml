@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:stretchColumns="0" android:shrinkColumns="0">
+    <TableRow android:id="@+id/dseca_read_cell" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="18sp" android:gravity="center" android:id="@+id/dseca_read_characteristic" android:layout_width="wrap_content" android:layout_height="50dp" android:text="Read Characteristic"/>
+    </TableRow>
+    <TableRow android:id="@+id/dseca_write_cell" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="18sp" android:gravity="center" android:id="@+id/dseca_write_characteristic" android:layout_width="match_parent" android:layout_height="50dp" android:text="Write Characteristic"/>
+            <EditText android:id="@+id/dseca_write_characteristic_data" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="0x00,0x01,0x03" android:ems="10" android:inputType="textPersonName" android:layout_marginStart="10dp" android:layout_marginEnd="10dp"/>
+        </LinearLayout>
+    </TableRow>
+    <TableRow android:id="@+id/dseca_notify_cell" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="50dp">
+        <TextView android:textSize="18sp" android:gravity="center" android:id="@+id/dseca_notification_setting" android:layout_width="wrap_content" android:layout_height="50dp" android:text="Enable Notifications"/>
+    </TableRow>
+    <TableRow android:id="@+id/dseca_indicate_cell" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="18sp" android:gravity="center" android:id="@+id/dseca_indication_setting" android:layout_width="wrap_content" android:layout_height="50dp" android:text="Enable Indications"/>
+    </TableRow>
+</TableLayout>

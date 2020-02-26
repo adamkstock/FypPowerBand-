@@ -1,0 +1,545 @@
+<FirmwareEntries>
+    <FirmwareEntry>
+        <Title>Project Zero</Title>
+        <Description>PGgzPk9PQiBJbWFnZSBmb3IgQ0MyNjUyIExhdW5jaHBhZDwvaDM+DQpPT0IgSW1hZ2UgZm9yIENDMjY1Mjxicj4NCjxicj4NCjxicj4NCkV4YW1wbGUgUkVBRE1FIGlzIDxhIGhyZWY9Imh0dHA6Ly9kZXYudGkuY29tL3RpcmV4L2NvbnRlbnQvc2ltcGxlbGlua19jYzI2eDJfc2RrXzFfNjBfMDBfNDMvZXhhbXBsZXMvcnRvcy9DQzI2WDJSMV9MQVVOQ0hYTC9ibGU1c3RhY2svcHJvamVjdF96ZXJvL1JFQURNRS5odG1sIj5IZXJlIC4uLjwvYnI+DQo8YnI+DQpDQzI2NTIgTGF1bmNocGFkIGxhbmRpbmcgcGFnZSA8YSBocmVmPSJodHRwOi8vd3d3LnRpLmNvbS90b29sL0xBVU5DSFhMLUNDMjZYMlIxIj5IZXJlIC4uLjwvYT48YnI+DQpDQzI2NTIgTGF1bmNocGFkIHF1aWNrIHN0YXJ0IGd1aWRlIDxhIGhyZWY9Imh0dHA6Ly93d3cudGkuY29tL2xpdC9tbC9zd3J1NTI4L3N3cnU1MjgucGRmIj5IZXJlIC4uLjwvYT4=</Description>
+        <DevPack>
+        </DevPack>
+        <Custom>NO</Custom>
+        <WirelessStandard>BLE</WirelessStandard>
+        <Type>App with Stacklibrary</Type>
+        <OADAlgo>3</OADAlgo>
+        <BoardType>CC2652 LP - Project Zero</BoardType>
+        <RequiredVersionRev>0.0</RequiredVersionRev>
+        <SafeMode>NO</SafeMode>
+        <Version>1.00</Version>
+        <MCU>CC2652</MCU>
+        <OnChip>NO</OnChip>
+        <Filename>EOAD_Files/ble5_project_zero_cc26x2r1lp_app_FlashROM_Release_oad_secure_3.10.bin</Filename>
+        <Security>Secure</Security>
+    </FirmwareEntry>
+    <FirmwareEntry>
+        <Title>Project Zero</Title>
+        <Description>PGgzPk9PQiBJbWFnZSBmb3IgQ0MyNjUyIExhdW5jaHBhZDwvaDM+DQpPT0IgSW1hZ2UgZm9yIENDMjY1Mjxicj4NCjxicj4NCjxicj4NCkV4YW1wbGUgUkVBRE1FIGlzIDxhIGhyZWY9Imh0dHA6Ly9kZXYudGkuY29tL3RpcmV4L2NvbnRlbnQvc2ltcGxlbGlua19jYzI2eDJfc2RrXzFfNjBfMDBfNDMvZXhhbXBsZXMvcnRvcy9DQzI2WDJSMV9MQVVOQ0hYTC9ibGU1c3RhY2svcHJvamVjdF96ZXJvL1JFQURNRS5odG1sIj5IZXJlIC4uLjwvYnI+DQo8YnI+DQpDQzI2NTIgTGF1bmNocGFkIGxhbmRpbmcgcGFnZSA8YSBocmVmPSJodHRwOi8vd3d3LnRpLmNvbS90b29sL0xBVU5DSFhMLUNDMjZYMlIxIj5IZXJlIC4uLjwvYT48YnI+DQpDQzI2NTIgTGF1bmNocGFkIHF1aWNrIHN0YXJ0IGd1aWRlIDxhIGhyZWY9Imh0dHA6Ly93d3cudGkuY29tL2xpdC9tbC9zd3J1NTI4L3N3cnU1MjgucGRmIj5IZXJlIC4uLjwvYT4=</Description>
+        <DevPack>
+        </DevPack>
+        <Custom>NO</Custom>
+        <WirelessStandard>BLE</WirelessStandard>
+        <Type>
+        </Type>
+        <OADAlgo>3</OADAlgo>
+        <BoardType>CC2652 LP</BoardType>
+        <RequiredVersionRev>0.0</RequiredVersionRev>
+        <SafeMode>
+        </SafeMode>
+        <Version>1.00
+        </Version>
+        <MCU>CC2652</MCU>
+        <OnChip>NO</OnChip>
+        <Filename>EOAD_Files/ble5_project_zero_cc26x2r1lp_app_FlashROM_Release_oad_unsecure_3.10.bin</Filename>
+        <Security>Unsecure</Security>
+    </FirmwareEntry>
+    <FirmwareEntry>
+        <Title>Project Zero</Title>
+        <Description>PGgzPk9PQiBJbWFnZSBmb3IgQ0MxMzUyIExhdW5jaHBhZDwvaDM+DQpPT0IgSW1hZ2UgZm9yIENDMTM1Mjxicj4NCjxicj4NCjxicj4NCk9PQiBJbWFnZSBSRUFETUUgPGEgaHJlZj0iaHR0cDovL2Rldi50aS5jb20vdGlyZXgvY29udGVudC9zaW1wbGVsaW5rX2NjMjZ4Ml9zZGtfMV82MF8wMF80My9leGFtcGxlcy9ydG9zL0NDMjZYMlIxX0xBVU5DSFhML2JsZTVzdGFjay9wcm9qZWN0X3plcm8vUkVBRE1FLmh0bWwiPmhlcmUuLi48L2E+DQo8YnI+DQpDQzEzNTIgTGF1bmNocGFkIGxhbmRpbmcgcGFnZSA8YSBocmVmPSJodHRwOi8vd3d3LnRpLmNvbS90b29sL0xBVU5DSFhMLUNDMTM1MlIxIj5IZXJlIC4uLjwvYT48YnI+DQpDQzEzNTIgTGF1bmNocGFkIHF1aWNrIHN0YXJ0IGd1aWRlIDxhIGhyZWY9Imh0dHA6Ly93d3cudGkuY29tL2xpdC9tbC9zd3J1NTI1YS9zd3J1NTI1YS5wZGYiPkhlcmUgLi4uPC9hPg==</Description>
+        <DevPack>
+        </DevPack>
+        <Custom>NO</Custom>
+        <WirelessStandard>BLE</WirelessStandard>
+        <Type>App with Stacklibrary</Type>
+        <OADAlgo>3</OADAlgo>
+        <BoardType>CC1352 LP</BoardType>
+        <RequiredVersionRev>0.0</RequiredVersionRev>
+        <SafeMode>NO</SafeMode>
+        <Version>1.00</Version>
+        <MCU>CC1352R1</MCU>
+        <OnChip>NO</OnChip>
+        <Filename>EOAD_Files/ble5_project_zero_cc13x2r1lp_app_FlashROM_Release_oad_secure_3.10.bin</Filename>
+        <Security>Secure</Security>
+    </FirmwareEntry>
+    <FirmwareEntry>
+        <Title>Project Zero</Title>
+        <Description>PGgzPk9PQiBJbWFnZSBmb3IgQ0MxMzUyIExhdW5jaHBhZDwvaDM+DQpPT0IgSW1hZ2UgZm9yIENDMTM1Mjxicj4NCjxicj4NCjxicj4NCk9PQiBJbWFnZSBSRUFETUUgPGEgaHJlZj0iaHR0cDovL2Rldi50aS5jb20vdGlyZXgvY29udGVudC9zaW1wbGVsaW5rX2NjMjZ4Ml9zZGtfMV82MF8wMF80My9leGFtcGxlcy9ydG9zL0NDMjZYMlIxX0xBVU5DSFhML2JsZTVzdGFjay9wcm9qZWN0X3plcm8vUkVBRE1FLmh0bWwiPmhlcmUuLi48L2E+DQo8YnI+DQpDQzEzNTIgTGF1bmNocGFkIGxhbmRpbmcgcGFnZSA8YSBocmVmPSJodHRwOi8vd3d3LnRpLmNvbS90b29sL0xBVU5DSFhMLUNDMTM1MlIxIj5IZXJlIC4uLjwvYT48YnI+DQpDQzEzNTIgTGF1bmNocGFkIHF1aWNrIHN0YXJ0IGd1aWRlIDxhIGhyZWY9Imh0dHA6Ly93d3cudGkuY29tL2xpdC9tbC9zd3J1NTI1YS9zd3J1NTI1YS5wZGYiPkhlcmUgLi4uPC9hPg==</Description>
+        <DevPack>
+        </DevPack>
+        <Custom>NO</Custom>
+        <WirelessStandard>BLE</WirelessStandard>
+        <Type>App with Stacklibrary</Type>
+        <OADAlgo>3</OADAlgo>
+        <BoardType>CC1352 LP - Project Zero</BoardType>
+        <RequiredVersionRev>0.0</RequiredVersionRev>
+        <SafeMode>NO</SafeMode>
+        <Version>1.00</Version>
+        <MCU>CC1352</MCU>
+        <OnChip>NO</OnChip>
+        <Filename>EOAD_Files/ble5_project_zero_cc13x2r1lp_app_FlashROM_Release_oad_unsecure_3.10.bin</Filename>
+        <Security>Unsecure</Security>
+    </FirmwareEntry>
+    <FirmwareEntry>
+        <Title>Simple Peripheral</Title>
+        <Description>PGgzPlNpbXBsZSBCTEUgUGVyaXBoZXJhbCBJbWFnZSBmb3IgQ0MyNjUyIExhdW5jaHBhZDwvaDM+DQpTaW1wbGUgQkxFIFBlcmlwaGVyYWwgSW1hZ2UgZm9yIENDMjY1Mjxicj4NCjxicj4NCjxicj4NCkNDMjY1MiBMYXVuY2hwYWQgbGFuZGluZyBwYWdlIDxhIGhyZWY9Imh0dHA6Ly93d3cudGkuY29tL3Rvb2wvTEFVTkNIWEwtQ0MyNlgyUjEiPkhlcmUgLi4uPC9hPjxicj4NCkNDMjY1MiBMYXVuY2hwYWQgcXVpY2sgc3RhcnQgZ3VpZGUgPGEgaHJlZj0iaHR0cDovL3d3dy50aS5jb20vbGl0L21sL3N3cnU1Mjgvc3dydTUyOC5wZGYiPkhlcmUgLi4uPC9hPg==</Description>
+        <DevPack>
+        </DevPack>
+        <Custom>NO</Custom>
+        <WirelessStandard>BLE</WirelessStandard>
+        <Type>App + Stack</Type>
+        <OADAlgo>3</OADAlgo>
+        <BoardType>CC2652 LP - Simple BLE</BoardType>
+        <RequiredVersionRev>0.0</RequiredVersionRev>
+        <SafeMode>NO</SafeMode>
+        <Version>1.00</Version>
+        <MCU>CC2652</MCU>
+        <OnChip>NO</OnChip>
+        <Filename>EOAD_Files/ble5_simple_peripheral_oad_offchip_cc26x2r1lp_app_FlashROM_Release_oad_secure_3.10.bin</Filename>
+        <Security>Secure</Security>
+    </FirmwareEntry>
+    <FirmwareEntry>
+        <Title>Simple Peripheral</Title>
+        <Description>PGgzPlNpbXBsZSBCTEUgUGVyaXBoZXJhbCBJbWFnZSBmb3IgQ0MyNjUyIExhdW5jaHBhZDwvaDM+DQpTaW1wbGUgQkxFIFBlcmlwaGVyYWwgSW1hZ2UgZm9yIENDMjY1Mjxicj4NCjxicj4NCjxicj4NCkNDMjY1MiBMYXVuY2hwYWQgbGFuZGluZyBwYWdlIDxhIGhyZWY9Imh0dHA6Ly93d3cudGkuY29tL3Rvb2wvTEFVTkNIWEwtQ0MyNlgyUjEiPkhlcmUgLi4uPC9hPjxicj4NCkNDMjY1MiBMYXVuY2hwYWQgcXVpY2sgc3RhcnQgZ3VpZGUgPGEgaHJlZj0iaHR0cDovL3d3dy50aS5jb20vbGl0L21sL3N3cnU1Mjgvc3dydTUyOC5wZGYiPkhlcmUgLi4uPC9hPg==</Description>
+        <DevPack>
+        </DevPack>
+        <Custom>NO</Custom>
+        <WirelessStandard>BLE</WirelessStandard>
+        <Type>App + Stack</Type>
+        <OADAlgo>3</OADAlgo>
+        <BoardType>CC2652 LP</BoardType>
+        <RequiredVersionRev>0.0</RequiredVersionRev>
+        <SafeMode>NO</SafeMode>
+        <Version>1.00</Version>
+        <MCU>CC2652</MCU>
+        <OnChip>NO</OnChip>
+        <Filename>EOAD_Files/ble5_simple_peripheral_oad_offchip_cc26x2r1lp_app_FlashROM_Release_oad_unsecure_3.10.bin</Filename>
+        <Security>Unsecure</Security>
+    </FirmwareEntry>
+    <FirmwareEntry>
+        <Title>Simple Peripheral</Title>
+        <Description>PGgzPlNpbXBsZSBCTEUgUGVyaXBoZXJhbCBJbWFnZSBmb3IgQ0MxMzUyIExhdW5jaHBhZDwvaDM+DQpTaW1wbGUgQkxFIFBlcmlwaGVyYWwgSW1hZ2UgZm9yIENDMTM1Mjxicj4NCjxicj4NCjxicj4NCkNDMTM1MiBMYXVuY2hwYWQgbGFuZGluZyBwYWdlIDxhIGhyZWY9Imh0dHA6Ly93d3cudGkuY29tL3Rvb2wvTEFVTkNIWEwtQ0MxMzUyUjEiPkhlcmUgLi4uPC9hPjxicj4NCkNDMTM1MiBMYXVuY2hwYWQgcXVpY2sgc3RhcnQgZ3VpZGUgPGEgaHJlZj0iaHR0cDovL3d3dy50aS5jb20vbGl0L21sL3N3cnU1MjVhL3N3cnU1MjVhLnBkZiI+SGVyZSAuLi48L2E+</Description>
+        <DevPack>
+        </DevPack>
+        <Custom>NO</Custom>
+        <WirelessStandard>BLE</WirelessStandard>
+        <Type>App + Stack</Type>
+        <OADAlgo>3</OADAlgo>
+        <BoardType>CC1352P1 LP - Simple Peripheral</BoardType>
+        <RequiredVersionRev>0.0</RequiredVersionRev>
+        <SafeMode>NO</SafeMode>
+        <Version>1.00</Version>
+        <MCU>CC1352P</MCU>
+        <OnChip>NO</OnChip>
+        <Filename>EOAD_Files/ble5_simple_peripheral_oad_offchip_cc13x2r1lp_app_FlashROM_Release_oad_unsecure_3.10.bin</Filename>
+        <Security>Unsecure</Security>
+    </FirmwareEntry>
+    <FirmwareEntry>
+        <Title>Simple Peripheral</Title>
+        <Description>PGgzPlNpbXBsZSBCTEUgUGVyaXBoZXJhbCBJbWFnZSBmb3IgQ0MxMzUyIExhdW5jaHBhZDwvaDM+DQpTaW1wbGUgQkxFIFBlcmlwaGVyYWwgSW1hZ2UgZm9yIENDMTM1Mjxicj4NCjxicj4NCjxicj4gICANCkNDMTM1MiBMYXVuY2hwYWQgbGFuZGluZyBwYWdlIDxhIGhyZWY9Imh0dHA6Ly93d3cudGkuY29tL3Rvb2wvTEFVTkNIWEwtQ0MxMzUyUjEiPkhlcmUgLi4uPC9hPjxicj4NCkNDMTM1MiBMYXVuY2hwYWQgcXVpY2sgc3RhcnQgZ3VpZGUgPGEgaHJlZj0iaHR0cDovL3d3dy50aS5jb20vbGl0L21sL3N3cnU1MjVhL3N3cnU1MjVhLnBkZiI+SGVyZSAuLi48L2E+</Description>
+        <DevPack>
+        </DevPack>
+        <Custom>NO</Custom>
+        <WirelessStandard>BLE</WirelessStandard>
+        <Type>App + Stack</Type>
+        <OADAlgo>3</OADAlgo>
+        <BoardType>CC1352P1 LP - Simple Peripheral</BoardType>
+        <RequiredVersionRev>0.0</RequiredVersionRev>
+        <SafeMode>NO</SafeMode>
+        <Version>1.00</Version>
+        <MCU>CC1352P</MCU>
+        <OnChip>NO</OnChip>
+        <Filename>EOAD_Files/ble5_simple_peripheral_oad_offchip_cc13x2r1lp_app_FlashROM_Release_oad_secure_3.10.bin</Filename>
+        <Security>Secure</Security>
+    </FirmwareEntry>
+    <FirmwareEntry>
+        <Title>Simple Peripheral</Title>
+        <Description>PGgzPlNpbXBsZSBQZXJpcGhlcmFsIGZvciBDQzEzNTJQMiBMYXVuY2hwYWQ8L2gzPgpTaW1wbGUgUGVyaXBoZXJhbCBmb3IgQ0MxMzUyUDI8YnI+Cjxicj4KPGJyPgpTaW1wbGUgUGVyaXBoZXJhbCBJbWFnZSBSRUFETUUgPGEgaHJlZj0iaHR0cDovL2Rldi50aS5jb20vdGlyZXgvY29udGVudC9zaW1wbGVsaW5rX2NjMTN4Ml9zZGtfMl8zMF8wMF80NS9leGFtcGxlcy9ydG9zL0NDMTM1MlAyX0xBVU5DSFhML2JsZTVzdGFjay9zaW1wbGVfcGVyaXBoZXJhbF9vYWRfb2ZmY2hpcC9SRUFETUUuaHRtbCI+aGVyZS4uLjwvYT4KPGJyPgpDQzEzNTJQIExhdW5jaHBhZCBsYW5kaW5nIHBhZ2UgPGEgaHJlZj0iaHR0cDovL3d3dy50aS5jb20vdG9vbC9MQVVOQ0hYTC1DQzEzNTJQIj5IZXJlIC4uLjwvYT48YnI+CkNDMTM1MlAxIExhdW5jaHBhZCBxdWljayBzdGFydCBndWlkZSA8YSBocmVmPSJodHRwOi8vd3d3LnRpLmNvbS9saXQvdWcvc3dhdTEwOC9zd2F1MTA4LnBkZiI+SGVyZSAuLi48L2E+Cjxicj4KQ0MxMzUyUDIgTGF1bmNocGFkIHF1aWNrIHN0YXJ0IGd1aWRlIDxhIGhyZWY9Imh0dHA6Ly93d3cudGkuY29tL2xpdC91Zy9zd2F1MTA5L3N3YXUxMDkucGRmIj5IZXJlIC4uLjwvYT4=</Description>
+        <DevPack>
+        </DevPack>
+        <Custom>NO</Custom>
+        <WirelessStandard>BLE</WirelessStandard>
+        <Type>App + Stack</Type>
+        <OADAlgo>3</OADAlgo>
+        <BoardType>CC1352P2 LP - Simple Peripheral</BoardType>
+        <RequiredVersionRev>0.0</RequiredVersionRev>
+        <SafeMode>NO</SafeMode>
+        <Version>1.00</Version>
+        <MCU>CC1352P</MCU>
+        <OnChip>NO</OnChip>
+        <Filename>EOAD_Files/ble5_simple_peripheral_oad_offchip_cc13x2p2lp_app_FlashROM_Release_oad_unsecure_3.10.bin</Filename>
+        <Security>Unsecure</Security>
+    </FirmwareEntry>
+    <FirmwareEntry>
+        <Title>Thread CLI</Title>
+        <Description>PGgzPlRocmVhZCBJbWFnZSBmb3IgQ0MyNjUyIExhdW5jaHBhZDwvaDM+DQpCTEUgT0FEIGVuYWJsZWQgQ29tbWFuZCBMaW5lIEludGVyZmFjZSBGdWxsIFRocmVhZCBEZXZpY2UgZXhhbXBsZSBhcHBsaWNhdGlvbjxicj4NCjxicj4NCjxicj4NClJlYWRtZSBmb3IgdGhpcyBleGFtcGxlIDxhIGhyZWY9Imh0dHA6Ly9kZXYudGkuY29tL3RpcmV4L2NvbnRlbnQvc2ltcGxlbGlua19jYzI2eDJfc2RrXzFfNjBfMDBfNDMvZXhhbXBsZXMvcnRvcy9DQzI2WDJSMV9MQVVOQ0hYTC90aHJlYWQvY2xpX2Z0ZC9SRUFETUUuaHRtbCI+aGVyZSAuLi48L2E+PGJyPg0KPGJyPg0KQ0MyNjUyIExhdW5jaHBhZCBsYW5kaW5nIHBhZ2UgPGEgaHJlZj0iaHR0cDovL3d3dy50aS5jb20vdG9vbC9MQVVOQ0hYTC1DQzI2WDJSMSI+SGVyZSAuLi48L2E+PGJyPg0KQ0MyNjUyIExhdW5jaHBhZCBxdWljayBzdGFydCBndWlkZSA8YSBocmVmPSJodHRwOi8vd3d3LnRpLmNvbS9saXQvbWwvc3dydTUyOC9zd3J1NTI4LnBkZiI+SGVyZSAuLi48L2E+</Description>
+        <DevPack>
+        </DevPack>
+        <Custom>NO</Custom>
+        <WirelessStandard>Thread</WirelessStandard>
+        <Type>App + Stack</Type>
+        <OADAlgo>3</OADAlgo>
+        <BoardType>CC2652 LP - Thread</BoardType>
+        <RequiredVersionRev>0.0</RequiredVersionRev>
+        <SafeMode>NO</SafeMode>
+        <Version>1.00</Version>
+        <MCU>CC2652</MCU>
+        <OnChip>NO</OnChip>
+        <Filename>EOAD_Files/oad_cli_CC26X2R1_LAUNCHXL_tirtos_ccs_oad_unsecure_3.10.bin</Filename>
+        <Security>Unsecure</Security>
+    </FirmwareEntry>
+    <FirmwareEntry>
+        <Title>Thread CLI</Title>
+        <Description>PGgzPlRocmVhZCBJbWFnZSBmb3IgQ0MyNjUyIExhdW5jaHBhZDwvaDM+DQpCTEUgT0FEIGVuYWJsZWQgQ29tbWFuZCBMaW5lIEludGVyZmFjZSBGdWxsIFRocmVhZCBEZXZpY2UgZXhhbXBsZSBhcHBsaWNhdGlvbjxicj4NCjxicj4NCjxicj4NClJlYWRtZSBmb3IgdGhpcyBleGFtcGxlIDxhIGhyZWY9Imh0dHA6Ly9kZXYudGkuY29tL3RpcmV4L2NvbnRlbnQvc2ltcGxlbGlua19jYzI2eDJfc2RrXzFfNjBfMDBfNDMvZXhhbXBsZXMvcnRvcy9DQzI2WDJSMV9MQVVOQ0hYTC90aHJlYWQvY2xpX2Z0ZC9SRUFETUUuaHRtbCI+aGVyZSAuLi48L2E+PGJyPg0KPGJyPg0KQ0MyNjUyIExhdW5jaHBhZCBsYW5kaW5nIHBhZ2UgPGEgaHJlZj0iaHR0cDovL3d3dy50aS5jb20vdG9vbC9MQVVOQ0hYTC1DQzI2WDJSMSI+SGVyZSAuLi48L2E+PGJyPg0KQ0MyNjUyIExhdW5jaHBhZCBxdWljayBzdGFydCBndWlkZSA8YSBocmVmPSJodHRwOi8vd3d3LnRpLmNvbS9saXQvbWwvc3dydTUyOC9zd3J1NTI4LnBkZiI+SGVyZSAuLi48L2E+</Description>
+        <DevPack>
+        </DevPack>
+        <Custom>NO</Custom>
+        <WirelessStandard>Thread</WirelessStandard>
+        <Type>App + Stack</Type>
+        <OADAlgo>3</OADAlgo>
+        <BoardType>CC2652 LP - Thread</BoardType>
+        <RequiredVersionRev>0.0</RequiredVersionRev>
+        <SafeMode>NO</SafeMode>
+        <Version>1.00</Version>
+        <MCU>CC2652</MCU>
+        <OnChip>NO</OnChip>
+        <Filename>EOAD_Files/oad_cli_CC26X2R1_LAUNCHXL_tirtos_ccs_oad_secure_3.10.bin</Filename>
+        <Security>Secure</Security>
+    </FirmwareEntry>
+    <FirmwareEntry>
+        <Title>Thread CLI</Title>
+        <Description>PGgzPlRocmVhZCBJbWFnZSBmb3IgQ0MxMzUyUjEgTGF1bmNocGFkPC9oMz4KQkxFIE9BRCBlbmFibGVkIENvbW1hbmQgTGluZSBJbnRlcmZhY2UgRnVsbCBUaHJlYWQgRGV2aWNlIGV4YW1wbGUgYXBwbGljYXRpb248YnI+Cjxicj4KPGJyPgpSZWFkbWUgZm9yIHRoaXMgZXhhbXBsZSA8YSBocmVmPSJodHRwOi8vZGV2LnRpLmNvbS90aXJleC9jb250ZW50L3NpbXBsZWxpbmtfY2MyNngyX3Nka18xXzYwXzAwXzQzL2V4YW1wbGVzL3J0b3MvQ0MyNlgyUjFfTEFVTkNIWEwvdGhyZWFkL2NsaV9mdGQvUkVBRE1FLmh0bWwiPmhlcmUgLi4uPC9hPjxicj4KPGJyPgpDQzEzNTIgTGF1bmNocGFkIGxhbmRpbmcgcGFnZSA8YSBocmVmPSJodHRwOi8vd3d3LnRpLmNvbS90b29sL2xhdW5jaHhsLWNjMTM1MnIxIj5IZXJlIC4uLjwvYT48YnI+CkNDMTM1MiBMYXVuY2hwYWQgcXVpY2sgc3RhcnQgZ3VpZGUgPGEgaHJlZj0iaHR0cDovL3d3dy50aS5jb20vbGl0L21sL3N3cnU1MjVhL3N3cnU1MjVhLnBkZiI+SGVyZSAuLi48L2E+</Description>
+        <DevPack>
+        </DevPack>
+        <Custom>NO</Custom>
+        <WirelessStandard>Thread</WirelessStandard>
+        <Type>App + Stack</Type>
+        <OADAlgo>3</OADAlgo>
+        <BoardType>CC1352R1 LP - Thread</BoardType>
+        <RequiredVersionRev>0.0</RequiredVersionRev>
+        <SafeMode>NO</SafeMode>
+        <Version>1.00</Version>
+        <MCU>CC1352</MCU>
+        <OnChip>NO</OnChip>
+        <Filename>EOAD_Files/oad_cli_CC1352R1_LAUNCHXL_tirtos_ccs_oad_unsecure_3.10.bin</Filename>
+        <Security>Unsecure</Security>
+    </FirmwareEntry>
+    <FirmwareEntry>
+        <Title>Thread CLI</Title>
+        <Description>PGgzPlRocmVhZCBJbWFnZSBmb3IgQ0MxMzUyUjEgTGF1bmNocGFkPC9oMz4KQkxFIE9BRCBlbmFibGVkIENvbW1hbmQgTGluZSBJbnRlcmZhY2UgRnVsbCBUaHJlYWQgRGV2aWNlIGV4YW1wbGUgYXBwbGljYXRpb248YnI+Cjxicj4KPGJyPgpSZWFkbWUgZm9yIHRoaXMgZXhhbXBsZSA8YSBocmVmPSJodHRwOi8vZGV2LnRpLmNvbS90aXJleC9jb250ZW50L3NpbXBsZWxpbmtfY2MyNngyX3Nka18xXzYwXzAwXzQzL2V4YW1wbGVzL3J0b3MvQ0MyNlgyUjFfTEFVTkNIWEwvdGhyZWFkL2NsaV9mdGQvUkVBRE1FLmh0bWwiPmhlcmUgLi4uPC9hPjxicj4KPGJyPgpDQzEzNTIgTGF1bmNocGFkIGxhbmRpbmcgcGFnZSA8YSBocmVmPSJodHRwOi8vd3d3LnRpLmNvbS90b29sL2xhdW5jaHhsLWNjMTM1MnIxIj5IZXJlIC4uLjwvYT48YnI+CkNDMTM1MiBMYXVuY2hwYWQgcXVpY2sgc3RhcnQgZ3VpZGUgPGEgaHJlZj0iaHR0cDovL3d3dy50aS5jb20vbGl0L21sL3N3cnU1MjVhL3N3cnU1MjVhLnBkZiI+SGVyZSAuLi48L2E+</Description>
+        <DevPack>
+        </DevPack>
+        <Custom>NO</Custom>
+        <WirelessStandard>Thread</WirelessStandard>
+        <Type>App + Stack</Type>
+        <OADAlgo>3</OADAlgo>
+        <BoardType>CC1352R1 LP - Thread</BoardType>
+        <RequiredVersionRev>0.0</RequiredVersionRev>
+        <SafeMode>NO</SafeMode>
+        <Version>1.00</Version>
+        <MCU>CC1352</MCU>
+        <OnChip>NO</OnChip>
+        <Filename>EOAD_Files/oad_cli_CC1352R1_LAUNCHXL_tirtos_ccs_oad_secure_3.10.bin</Filename>
+        <Security>Secure</Security>
+    </FirmwareEntry>
+    <FirmwareEntry>
+        <Title>Sensor Node</Title>
+        <Description>PGgzPlNlbnNvciBOb2RlIEV4YW1wbGUgZm9yIENDMTM1MiBMYXVuY2hwYWQgMi40R0h6PC9oMz4NClNlbnNvciBleGFtcGxlIGFwcGxpY2F0aW9uIGRlbW9uc3RyYXRpbmcgaG93IHRvIGltcGxlbWVudCBhIHNlbnNvciBuZXR3b3JrIGRldmljZSB1c2luZyBUSSAxNS40LVN0YWNrLjxicj4NCjxicj4NCjxicj4NCkNDMTM1MiBMYXVuY2hwYWQgbGFuZGluZyBwYWdlIDxhIGhyZWY9Imh0dHA6Ly93d3cudGkuY29tL3Rvb2wvTEFVTkNIWEwtQ0MxMzUyUjEiPkhlcmUgLi4uPC9hPjxicj4NClNlbnNvciBSZWFkbWUgPGEgaHJlZj0iaHR0cDovL2Rldi50aS5jb20vdGlyZXgvY29udGVudC9zaW1wbGVsaW5rX2NjMTN4Ml9zZGtfMV82MF8wMF8yOS9leGFtcGxlcy9ydG9zL0NDMTM1MlIxX0xBVU5DSFhML3RpMTU0c3RhY2svc2Vuc29yL1JFQURNRS5odG1sIj5IZXJlIC4uLjwvYT4=</Description>
+        <DevPack>
+        </DevPack>
+        <Custom>NO</Custom>
+        <WirelessStandard>TI</WirelessStandard>
+        <Type>App + Stack</Type>
+        <OADAlgo>3</OADAlgo>
+        <BoardType>CC1352 LP - Sensor</BoardType>
+        <RequiredVersionRev>0.0</RequiredVersionRev>
+        <SafeMode>NO</SafeMode>
+        <Version>1.00</Version>
+        <MCU>CC1352</MCU>
+        <OnChip>NO</OnChip>
+        <Filename>EOAD_Files/sensor_oad_offchip_2_4g_CC1352R1_LAUNCHXL_tirtos_ccs_unsecure_3.10.bin</Filename>
+        <Security>Unsecure</Security>
+    </FirmwareEntry>
+    <FirmwareEntry>
+        <Title>Sensor Node</Title>
+        <Description>PGgzPlNlbnNvciBOb2RlIEV4YW1wbGUgZm9yIENDMTM1MiBMYXVuY2hwYWQgMi40R0h6PC9oMz4NClNlbnNvciBleGFtcGxlIGFwcGxpY2F0aW9uIGRlbW9uc3RyYXRpbmcgaG93IHRvIGltcGxlbWVudCBhIHNlbnNvciBuZXR3b3JrIGRldmljZSB1c2luZyBUSSAxNS40LVN0YWNrLjxicj4NCjxicj4NCjxicj4NCkNDMTM1MiBMYXVuY2hwYWQgbGFuZGluZyBwYWdlIDxhIGhyZWY9Imh0dHA6Ly93d3cudGkuY29tL3Rvb2wvTEFVTkNIWEwtQ0MxMzUyUjEiPkhlcmUgLi4uPC9hPjxicj4NClNlbnNvciBSZWFkbWUgPGEgaHJlZj0iaHR0cDovL2Rldi50aS5jb20vdGlyZXgvY29udGVudC9zaW1wbGVsaW5rX2NjMTN4Ml9zZGtfMV82MF8wMF8yOS9leGFtcGxlcy9ydG9zL0NDMTM1MlIxX0xBVU5DSFhML3RpMTU0c3RhY2svc2Vuc29yL1JFQURNRS5odG1sIj5IZXJlIC4uLjwvYT4=</Description>
+        <DevPack>
+        </DevPack>
+        <Custom>NO</Custom>
+        <WirelessStandard>TI</WirelessStandard>
+        <Type>App + Stack</Type>
+        <OADAlgo>3</OADAlgo>
+        <BoardType>CC1352 LP - Sensor</BoardType>
+        <RequiredVersionRev>0.0</RequiredVersionRev>
+        <SafeMode>NO</SafeMode>
+        <Version>1.00</Version>
+        <MCU>CC1352</MCU>
+        <OnChip>NO</OnChip>
+        <Filename>EOAD_Files/sensor_oad_offchip_2_4g_CC1352R1_LAUNCHXL_tirtos_ccs_secure_3.10.bin</Filename>
+        <Security>Secure</Security>
+    </FirmwareEntry>
+    <FirmwareEntry>
+        <Title>Sensor Node</Title>
+        <Description>PGgzPlNlbnNvciBOb2RlIEV4YW1wbGUgZm9yIENDMjY1MiBMYXVuY2hwYWQ8L2gzPgpTZW5zb3IgZXhhbXBsZSBhcHBsaWNhdGlvbiBkZW1vbnN0cmF0aW5nIGhvdyB0byBpbXBsZW1lbnQgYSBzZW5zb3IgbmV0d29yayBkZXZpY2UgdXNpbmcgVEkgMTUuNC1TdGFjay48YnI+Cjxicj4KPGJyPgpDQzI2NTIgTGF1bmNocGFkIGxhbmRpbmcgcGFnZSA8YSBocmVmPSJodHRwOi8vd3d3LnRpLmNvbS90b29sL2xhdW5jaHhsLWNjMjZ4MnIxIj5IZXJlIC4uLjwvYT48YnI+ClNlbnNvciBSZWFkbWUgPGEgaHJlZj0iaHR0cDovL2Rldi50aS5jb20vdGlyZXgvY29udGVudC9zaW1wbGVsaW5rX2NjMjZ4Ml9zZGtfMl8zMF8wMF8zNC9leGFtcGxlcy9ydG9zL0NDMjZYMlIxX0xBVU5DSFhML3RpMTU0c3RhY2svc2Vuc29yX29hZC9SRUFETUUuaHRtbCI+SGVyZSAuLi48L2E+</Description>
+        <DevPack>
+        </DevPack>
+        <Custom>NO</Custom>
+        <WirelessStandard>TI</WirelessStandard>
+        <Type>App + Stack</Type>
+        <OADAlgo>3</OADAlgo>
+        <BoardType>CC2652 LP - Sensor</BoardType>
+        <RequiredVersionRev>0.0</RequiredVersionRev>
+        <SafeMode>NO</SafeMode>
+        <Version>1.00</Version>
+        <MCU>CC2652</MCU>
+        <OnChip>NO</OnChip>
+        <Filename>EOAD_Files/sensor_oad_offchip_CC26X2R1_LAUNCHXL_tirtos_ccs_Release_unsecure_3.10.bin</Filename>
+        <Security>Unsecure</Security>
+    </FirmwareEntry>
+    <FirmwareEntry>
+        <Title>Sensor Node</Title>
+        <Description>PGgzPlNlbnNvciBOb2RlIEV4YW1wbGUgZm9yIENDMjY1MiBMYXVuY2hwYWQ8L2gzPgpTZW5zb3IgZXhhbXBsZSBhcHBsaWNhdGlvbiBkZW1vbnN0cmF0aW5nIGhvdyB0byBpbXBsZW1lbnQgYSBzZW5zb3IgbmV0d29yayBkZXZpY2UgdXNpbmcgVEkgMTUuNC1TdGFjay48YnI+Cjxicj4KPGJyPgpDQzI2NTIgTGF1bmNocGFkIGxhbmRpbmcgcGFnZSA8YSBocmVmPSJodHRwOi8vd3d3LnRpLmNvbS90b29sL2xhdW5jaHhsLWNjMjZ4MnIxIj5IZXJlIC4uLjwvYT48YnI+ClNlbnNvciBSZWFkbWUgPGEgaHJlZj0iaHR0cDovL2Rldi50aS5jb20vdGlyZXgvY29udGVudC9zaW1wbGVsaW5rX2NjMjZ4Ml9zZGtfMl8zMF8wMF8zNC9leGFtcGxlcy9ydG9zL0NDMjZYMlIxX0xBVU5DSFhML3RpMTU0c3RhY2svc2Vuc29yX29hZC9SRUFETUUuaHRtbCI+SGVyZSAuLi48L2E+</Description>
+        <DevPack>
+        </DevPack>
+        <Custom>NO</Custom>
+        <WirelessStandard>TI</WirelessStandard>
+        <Type>App + Stack</Type>
+        <OADAlgo>3</OADAlgo>
+        <BoardType>CC2652 LP - Sensor</BoardType>
+        <RequiredVersionRev>0.0</RequiredVersionRev>
+        <SafeMode>NO</SafeMode>
+        <Version>1.00</Version>
+        <MCU>CC2652</MCU>
+        <OnChip>NO</OnChip>
+        <Filename>EOAD_Files/sensor_oad_offchip_CC26X2R1_LAUNCHXL_tirtos_ccs_Release_secure_3.10.bin</Filename>
+        <Security>Secure</Security>
+    </FirmwareEntry>
+    <FirmwareEntry>
+        <Title>Sensor Node</Title>
+        <Description>PGgzPlNlbnNvciBOb2RlIEV4YW1wbGUgZm9yIENDMTM1MlAxIExhdW5jaHBhZDwvaDM+DQpTZW5zb3IgZXhhbXBsZSBhcHBsaWNhdGlvbiBkZW1vbnN0cmF0aW5nIGhvdyB0byBpbXBsZW1lbnQgYSBzZW5zb3IgbmV0d29yayBkZXZpY2UgdXNpbmcgVEkgMTUuNC1TdGFjay48YnI+DQo8YnI+DQo8YnI+DQpDQzEzNTIgTGF1bmNocGFkIGxhbmRpbmcgcGFnZSA8YSBocmVmPSJodHRwOi8vd3d3LnRpLmNvbS90b29sL0xBVU5DSFhMLUNDMTM1MlIxIj5IZXJlIC4uLjwvYT48YnI+DQpTZW5zb3IgUmVhZG1lIDxhIGhyZWY9Imh0dHA6Ly9kZXYudGkuY29tL3RpcmV4L2NvbnRlbnQvc2ltcGxlbGlua19jYzEzeDJfc2RrXzFfNjBfMDBfMjkvZXhhbXBsZXMvcnRvcy9DQzEzNTJSMV9MQVVOQ0hYTC90aTE1NHN0YWNrL3NlbnNvci9SRUFETUUuaHRtbCI+SGVyZSAuLi48L2E+</Description>
+        <DevPack>
+        </DevPack>
+        <Custom>NO</Custom>
+        <WirelessStandard>TI</WirelessStandard>
+        <Type>App + Stack</Type>
+        <OADAlgo>3</OADAlgo>
+        <BoardType>CC1352P1 LP - Sensor</BoardType>
+        <RequiredVersionRev>0.0</RequiredVersionRev>
+        <SafeMode>NO</SafeMode>
+        <Version>1.00</Version>
+        <MCU>CC1352P</MCU>
+        <OnChip>NO</OnChip>
+        <Filename>EOAD_Files/sensor_oad_offchip_CC1352P1_LAUNCHXL_tirtos_ccs_unsecure_3.10.bin</Filename>
+        <Security>Unsecure</Security>
+    </FirmwareEntry>
+    <FirmwareEntry>
+        <Title>Sensor Node</Title>
+        <Description>PGgzPlNlbnNvciBOb2RlIEV4YW1wbGUgZm9yIENDMTM1MlAxIExhdW5jaHBhZDwvaDM+DQpTZW5zb3IgZXhhbXBsZSBhcHBsaWNhdGlvbiBkZW1vbnN0cmF0aW5nIGhvdyB0byBpbXBsZW1lbnQgYSBzZW5zb3IgbmV0d29yayBkZXZpY2UgdXNpbmcgVEkgMTUuNC1TdGFjay48YnI+DQo8YnI+DQo8YnI+DQpDQzEzNTIgTGF1bmNocGFkIGxhbmRpbmcgcGFnZSA8YSBocmVmPSJodHRwOi8vd3d3LnRpLmNvbS90b29sL0xBVU5DSFhMLUNDMTM1MlIxIj5IZXJlIC4uLjwvYT48YnI+DQpTZW5zb3IgUmVhZG1lIDxhIGhyZWY9Imh0dHA6Ly9kZXYudGkuY29tL3RpcmV4L2NvbnRlbnQvc2ltcGxlbGlua19jYzEzeDJfc2RrXzFfNjBfMDBfMjkvZXhhbXBsZXMvcnRvcy9DQzEzNTJSMV9MQVVOQ0hYTC90aTE1NHN0YWNrL3NlbnNvci9SRUFETUUuaHRtbCI+SGVyZSAuLi48L2E+</Description>
+        <DevPack>
+        </DevPack>
+        <Custom>NO</Custom>
+        <WirelessStandard>TI</WirelessStandard>
+        <Type>App + Stack</Type>
+        <OADAlgo>3</OADAlgo>
+        <BoardType>CC1352P1 LP - Sensor</BoardType>
+        <RequiredVersionRev>0.0</RequiredVersionRev>
+        <SafeMode>NO</SafeMode>
+        <Version>1.00</Version>
+        <MCU>CC1352P</MCU>
+        <OnChip>NO</OnChip>
+        <Filename>EOAD_Files/sensor_oad_offchip_CC1352P1_LAUNCHXL_tirtos_ccs_secure_3.10.bin</Filename>
+        <Security>Secure</Security>
+    </FirmwareEntry>
+    <FirmwareEntry>
+        <Title>Sensor Node</Title>
+        <Description>PGgzPlNlbnNvciBOb2RlIEV4YW1wbGUgZm9yIENDMTM1MlAyIExhdW5jaHBhZDwvaDM+ClNlbnNvciBleGFtcGxlIGFwcGxpY2F0aW9uIGRlbW9uc3RyYXRpbmcgaG93IHRvIGltcGxlbWVudCBhIHNlbnNvciBuZXR3b3JrIGRldmljZSB1c2luZyBUSSAxNS40LVN0YWNrLjxicj4KPGJyPgo8YnI+CkNDMTM1MiBMYXVuY2hwYWQgbGFuZGluZyBwYWdlIDxhIGhyZWY9Imh0dHA6Ly93d3cudGkuY29tL3Rvb2wvTEFVTkNIWEwtQ0MxMzUyUjEiPkhlcmUgLi4uPC9hPjxicj4KU2Vuc29yIFJlYWRtZSA8YSBocmVmPSJodHRwOi8vZGV2LnRpLmNvbS90aXJleC9jb250ZW50L3NpbXBsZWxpbmtfY2MxM3gyX3Nka18xXzYwXzAwXzI5L2V4YW1wbGVzL3J0b3MvQ0MxMzUyUjFfTEFVTkNIWEwvdGkxNTRzdGFjay9zZW5zb3IvUkVBRE1FLmh0bWwiPkhlcmUgLi4uPC9hPg==</Description>
+        <DevPack>
+        </DevPack>
+        <Custom>NO</Custom>
+        <WirelessStandard>TI</WirelessStandard>
+        <Type>App + Stack</Type>
+        <OADAlgo>3</OADAlgo>
+        <BoardType>CC1352P2 LP - Sensor</BoardType>
+        <RequiredVersionRev>0.0</RequiredVersionRev>
+        <SafeMode>NO</SafeMode>
+        <Version>1.00</Version>
+        <MCU>CC1352P</MCU>
+        <OnChip>NO</OnChip>
+        <Filename>EOAD_Files/sensor_oad_offchip_CC1352P2_LAUNCHXL_tirtos_ccs_unsecure_3.10.bin</Filename>
+        <Security>Unsecure</Security>
+    </FirmwareEntry>
+    <FirmwareEntry>
+        <Title>Sensor Node</Title>
+        <Description>PGgzPlNlbnNvciBOb2RlIEV4YW1wbGUgZm9yIENDMTM1MlAyIExhdW5jaHBhZDwvaDM+ClNlbnNvciBleGFtcGxlIGFwcGxpY2F0aW9uIGRlbW9uc3RyYXRpbmcgaG93IHRvIGltcGxlbWVudCBhIHNlbnNvciBuZXR3b3JrIGRldmljZSB1c2luZyBUSSAxNS40LVN0YWNrLjxicj4KPGJyPgo8YnI+CkNDMTM1MiBMYXVuY2hwYWQgbGFuZGluZyBwYWdlIDxhIGhyZWY9Imh0dHA6Ly93d3cudGkuY29tL3Rvb2wvTEFVTkNIWEwtQ0MxMzUyUjEiPkhlcmUgLi4uPC9hPjxicj4KU2Vuc29yIFJlYWRtZSA8YSBocmVmPSJodHRwOi8vZGV2LnRpLmNvbS90aXJleC9jb250ZW50L3NpbXBsZWxpbmtfY2MxM3gyX3Nka18xXzYwXzAwXzI5L2V4YW1wbGVzL3J0b3MvQ0MxMzUyUjFfTEFVTkNIWEwvdGkxNTRzdGFjay9zZW5zb3IvUkVBRE1FLmh0bWwiPkhlcmUgLi4uPC9hPg==</Description>
+        <DevPack>
+        </DevPack>
+        <Custom>NO</Custom>
+        <WirelessStandard>TI</WirelessStandard>
+        <Type>App + Stack</Type>
+        <OADAlgo>3</OADAlgo>
+        <BoardType>CC1352P2 LP - Sensor</BoardType>
+        <RequiredVersionRev>0.0</RequiredVersionRev>
+        <SafeMode>NO</SafeMode>
+        <Version>1.00</Version>
+        <MCU>CC1352P</MCU>
+        <OnChip>NO</OnChip>
+        <Filename>EOAD_Files/sensor_oad_offchip_CC1352P2_LAUNCHXL_tirtos_ccs_secure_3.10.bin</Filename>
+        <Security>Secure</Security>
+    </FirmwareEntry>
+    <FirmwareEntry>
+        <Title>WSN Node OAD</Title>
+        <Description>PGgzPldTTiBOb2RlIE9BRCBmb3IgQ0MxMzUyIExhdW5jaHBhZDwvaDM+DQpUaGUgV1NOIE5vZGUgT0FEIGV4YW1wbGVzIGlsbHVzdHJhdGUgaG93IHRvIGNyZWF0ZSBhIHNpbXBsZSBwcm9wcmlldGFyeSBXaXJlbGVzcyBTZW5zb3IgTmV0d29yay48YnI+DQo8YnI+DQo8YnI+DQpDQzEzNTIgTGF1bmNocGFkIGxhbmRpbmcgcGFnZSA8YSBocmVmPSJodHRwOi8vd3d3LnRpLmNvbS90b29sL0xBVU5DSFhMLUNDMTM1MlIxIj5IZXJlIC4uLjwvYT48YnI+DQpXU04gUmVhZG1lIDxhIGhyZWY9Imh0dHA6Ly9kZXYudGkuY29tL3RpcmV4LyMvP2xpbms9U29mdHdhcmUlMkZTaW1wbGVMaW5rJTIwQ0MxM3gyJTIwU0RLJTJGRXhhbXBsZXMlMkZEZXZlbG9wbWVudCUyMFRvb2xzJTJGQ0MxMzUyUiUyMExhdW5jaFBhZCUyRkVhc3lMaW5rJTJGcmZXc25Ob2RlRXh0Rmxhc2hPYWRDbGllbnQiPkhlcmUgLi4uPC9hPg==</Description>
+        <DevPack>
+        </DevPack>
+        <Custom>NO</Custom>
+        <WirelessStandard>TI</WirelessStandard>
+        <Type>App + Stack</Type>
+        <OADAlgo>3</OADAlgo>
+        <BoardType>CC1352 LP - Node</BoardType>
+        <RequiredVersionRev>0.0</RequiredVersionRev>
+        <SafeMode>NO</SafeMode>
+        <Version>1.00</Version>
+        <MCU>CC1352</MCU>
+        <OnChip>NO</OnChip>
+        <Filename>EOAD_Files/rfWsnNodeExtFlashOadClient_CC1352R1_LAUNCHXL_tirtos_ccs.bin</Filename>
+        <Security>Unsecure</Security>
+    </FirmwareEntry>
+    <FirmwareEntry>
+        <Title>Simple Peripheral App + Stack</Title>
+        <Description>PGgzPlNpbXBsZSBQZXJpcGhlcmFsIEV4YW1wbGUgZm9yIENDMjY1MFIyRiBMYXVuY2hwYWQ8L2gzPg0KU2ltcGxlIFBlcmlwaGVyYWwgRXhhbXBsZSBJbWFnZSBmb3IgQ0MyNjUwUjJGPGJyPg0KPGJyPg0KPGJyPg0KQ0MyNjQwUjJGIExhdW5jaHBhZCBsYW5kaW5nIHBhZ2UgPGEgaHJlZj0iaHR0cDovL3d3dy50aS5jb20vdG9vbC9MQVVOQ0hYTC1DQzI2NDBSMiI+SGVyZSAuLi48L2E+PGJyPg0KQ0MyNjUyIExhdW5jaHBhZCBxdWljayBzdGFydCBndWlkZSA8YSBocmVmPSJodHRwOi8vd3d3LnRpLmNvbS9saXQvcGRmL3N3cnU1MDAiPkhlcmUgLi4uPC9hPg==</Description>
+        <DevPack>
+        </DevPack>
+        <Custom>NO</Custom>
+        <WirelessStandard>BLE</WirelessStandard>
+        <Type>App + Stack</Type>
+        <OADAlgo>3</OADAlgo>
+        <BoardType>CC2640R2 LP - Simple BLE</BoardType>
+        <RequiredVersionRev>0.0</RequiredVersionRev>
+        <SafeMode>NO</SafeMode>
+        <Version>1.00</Version>
+        <MCU>CC2640R2</MCU>
+        <OnChip>NO</OnChip>
+        <Filename>EOAD_Files/simple_peripheral_cc2640r2lp_oad_offchip_app_FlashROM_oad_merged.bin</Filename>
+        <Security>Unsecure</Security>
+    </FirmwareEntry>
+    <FirmwareEntry>
+        <Title>Simple Peripheral App Only</Title>
+        <Description>PGgzPlNpbXBsZSBQZXJpcGhlcmFsIEV4YW1wbGUgZm9yIENDMjY1MFIyRiBMYXVuY2hwYWQ8L2gzPg0KU2ltcGxlIFBlcmlwaGVyYWwgRXhhbXBsZSBJbWFnZSBmb3IgQ0MyNjUwUjJGPGJyPg0KPGJyPg0KPGJyPg0KQ0MyNjQwUjJGIExhdW5jaHBhZCBsYW5kaW5nIHBhZ2UgPGEgaHJlZj0iaHR0cDovL3d3dy50aS5jb20vdG9vbC9MQVVOQ0hYTC1DQzI2NDBSMiI+SGVyZSAuLi48L2E+PGJyPg0KQ0MyNjUyIExhdW5jaHBhZCBxdWljayBzdGFydCBndWlkZSA8YSBocmVmPSJodHRwOi8vd3d3LnRpLmNvbS9saXQvcGRmL3N3cnU1MDAiPkhlcmUgLi4uPC9hPg==</Description>
+        <DevPack>
+        </DevPack>
+        <Custom>NO</Custom>
+        <WirelessStandard>BLE</WirelessStandard>
+        <Type>App Only</Type>
+        <OADAlgo>3</OADAlgo>
+        <BoardType>CC2640R2 LP - Simple BLE</BoardType>
+        <RequiredVersionRev>0.0</RequiredVersionRev>
+        <SafeMode>NO</SafeMode>
+        <Version>1.00</Version>
+        <MCU>CC2640R2</MCU>
+        <OnChip>NO</OnChip>
+        <Filename>EOAD_Files/simple_peripheral_cc2640r2lp_oad_offchip_app_FlashROM_oad.bin</Filename>
+        <Security>Unsecure</Security>
+    </FirmwareEntry>
+    <FirmwareEntry>
+        <Title>Project Zero</Title>
+        <Description>PGgzPk9PQiBJbWFnZSBmb3IgQ0MxMzUyUDEgTGF1bmNocGFkPC9oMz4NCk9PQiBJbWFnZSBmb3IgQ0MxMzUyUDE8YnI+DQo8YnI+DQo8YnI+DQpPT0IgSW1hZ2UgUkVBRE1FIDxhIGhyZWY9Imh0dHA6Ly9kZXYudGkuY29tL3RpcmV4L2NvbnRlbnQvc2ltcGxlbGlua19jYzI2eDJfc2RrXzFfNjBfMDBfNDMvZXhhbXBsZXMvcnRvcy9DQzI2WDJSMV9MQVVOQ0hYTC9ibGU1c3RhY2svcHJvamVjdF96ZXJvL1JFQURNRS5odG1sIj5oZXJlLi4uPC9hPg0KPGJyPg0KQ0MxMzUyIExhdW5jaHBhZCBsYW5kaW5nIHBhZ2UgPGEgaHJlZj0iaHR0cDovL3d3dy50aS5jb20vdG9vbC9MQVVOQ0hYTC1DQzEzNTJSMSI+SGVyZSAuLi48L2E+PGJyPg0KQ0MxMzUyIExhdW5jaHBhZCBxdWljayBzdGFydCBndWlkZSA8YSBocmVmPSJodHRwOi8vd3d3LnRpLmNvbS9saXQvbWwvc3dydTUyNWEvc3dydTUyNWEucGRmIj5IZXJlIC4uLjwvYT4=</Description>
+        <DevPack>
+    </DevPack>
+        <Custom>NO</Custom>
+        <WirelessStandard>BLE</WirelessStandard>
+        <Type>App + Stack</Type>
+        <OADAlgo>3</OADAlgo>
+        <BoardType>CC1352P1 LP - Project Zero</BoardType>
+        <RequiredVersionRev>0.0</RequiredVersionRev>
+        <SafeMode>NO</SafeMode>
+        <Version>1.00</Version>
+        <MCU>CC1352P</MCU>
+        <OnChip>NO</OnChip>
+        <Filename>EOAD_Files/ble5_project_zero_cc13x2p1lp_app_FlashROM_Debug_oad.bin</Filename>
+        <Security>Unsecure</Security>
+    </FirmwareEntry>
+    <FirmwareEntry>
+        <Title>Project Zero</Title>
+        <Description>PGgzPk9PQiBJbWFnZSBmb3IgQ0MxMzUyUDIgTGF1bmNocGFkPC9oMz4NCk9PQiBJbWFnZSBmb3IgQ0MxMzUyUDI8YnI+DQo8YnI+DQo8YnI+DQpPT0IgSW1hZ2UgUkVBRE1FIDxhIGhyZWY9Imh0dHA6Ly9kZXYudGkuY29tL3RpcmV4L2NvbnRlbnQvc2ltcGxlbGlua19jYzI2eDJfc2RrXzFfNjBfMDBfNDMvZXhhbXBsZXMvcnRvcy9DQzI2WDJSMV9MQVVOQ0hYTC9ibGU1c3RhY2svcHJvamVjdF96ZXJvL1JFQURNRS5odG1sIj5oZXJlLi4uPC9hPg0KPGJyPg0KQ0MxMzUyIExhdW5jaHBhZCBsYW5kaW5nIHBhZ2UgPGEgaHJlZj0iaHR0cDovL3d3dy50aS5jb20vdG9vbC9MQVVOQ0hYTC1DQzEzNTJSMSI+SGVyZSAuLi48L2E+PGJyPg0KQ0MxMzUyIExhdW5jaHBhZCBxdWljayBzdGFydCBndWlkZSA8YSBocmVmPSJodHRwOi8vd3d3LnRpLmNvbS9saXQvbWwvc3dydTUyNWEvc3dydTUyNWEucGRmIj5IZXJlIC4uLjwvYT4=</Description>
+        <DevPack>
+        </DevPack>
+        <Custom>NO</Custom>
+        <WirelessStandard>BLE</WirelessStandard>
+        <Type>App + Stack</Type>
+        <OADAlgo>3</OADAlgo>
+        <BoardType>CC1352P2 LP - Project Zero</BoardType>
+        <RequiredVersionRev>0.0</RequiredVersionRev>
+        <SafeMode>NO</SafeMode>
+        <Version>1.00</Version>
+        <MCU>CC1352P</MCU>
+        <OnChip>NO</OnChip>
+        <Filename>EOAD_Files/ble5_project_zero_cc13x2p2lp_app_FlashROM_Debug_oad.bin</Filename>
+        <Security>Unsecure</Security>
+    </FirmwareEntry>
+    <FirmwareEntry>
+        <Title>BLE Multi Sensor for LPSTK</Title>
+        <Description>PGgzPkJMRSBNdWx0aSBTZW5zb3IgZm9yIExQU1RLPC9oMz4NCk9PQiBJbWFnZSBmb3IgdGhlIExhdW5jaFBhZCBTZW5zb3JUYWcgS2l0IChMUFNUSy1DQzEzNTJSKTxicj4NCjxicj4NCjxicj4NCjxicj4NCkNDMTM1MiBMUFNUSyBsYW5kaW5nIHBhZ2UgPGEgaHJlZj0iaHR0cDovL3d3dy50aS5jb20vdG9vbC9MQVVOQ0hYTC1DQzEzNTJSMSI+SGVyZSAuLi48L2E+PGJyPg0KVEkgUmVzb3VyY2UgRXhwbG9yZXIgUHJvamVjdCBMaW5rIDxhIGhyZWY9Imh0dHA6Ly9kZXYudGkuY29tL3RpcmV4L2V4cGxvcmUvbm9kZT9ub2RlPUFPSUg2M0NuNjQ4Q1hKcUhBTGxKdXdfX3BUVEhCbXVfX0xBVEVTVCI+SGVyZSAuLi48L2E+</Description>
+        <DevPack>
+        </DevPack>
+        <Custom>NO</Custom>
+        <WirelessStandard>BLE</WirelessStandard>
+        <Type>App with Stacklibrary</Type>
+        <OADAlgo>3</OADAlgo>
+        <BoardType>CC1352R1 LPSTK - Multi-Sensor</BoardType>
+        <RequiredVersionRev>0.0</RequiredVersionRev>
+        <SafeMode>NO</SafeMode>
+        <Version>1.00</Version>
+        <MCU>CC1352</MCU>
+        <OnChip>NO</OnChip>
+        <Filename>EOAD_Files/multi_sensor_app_oad_offchip_cc13x2r1lpstk_FlashROM_Debug_oad_secure.bin</Filename>
+        <Security>Secure</Security>
+    </FirmwareEntry>
+    <FirmwareEntry>
+        <Title>TI 15.4 DMM Sensor for LPSTK - EU (863MHz)</Title>
+        <Description>PGgzPlRJIDE1LjQgRE1NIFNlbnNvciBmb3IgTFBTVEsgLSBFVSAoODYzTUh6KTwvaDM+DQpUSSAxNS40IFNlbnNvciBOb2RlIGV4YW1wbGUgZm9yIExQU1RLIChFVS9DRSBNb2RlIDg2M01Ieik8YnI+DQo8YnI+DQo8YnI+DQo8YnI+DQpDQzEzNTIgTFBTVEsgbGFuZGluZyBwYWdlIDxhIGhyZWY9Imh0dHBzOi8vd3d3LnRpLmNvbS90b29sL0xQU1RLLUNDMTM1MlIiPkhlcmUgLi4uPC9hPjxicj4NClRJIFJlc291cmNlIEV4cGxvcmVyIFByb2plY3QgTGluayA8YSBocmVmPSJodHRwOi8vZGV2LnRpLmNvbS90aXJleC9leHBsb3JlL25vZGU/bm9kZT1BTy5Dd0dHbjBsbjh5UzVuUjl5VTN3X19wVFRIQm11X19MQVRFU1QiPkhlcmUgLi4uPC9hPg==</Description>
+        <DevPack>
+        </DevPack>
+        <Custom>NO</Custom>
+        <WirelessStandard>802154</WirelessStandard>
+        <Type>App with Stacklibrary</Type>
+        <OADAlgo>3</OADAlgo>
+        <BoardType>CC1352R1 LPSTK - Multi-Sensor</BoardType>
+        <RequiredVersionRev>0.0</RequiredVersionRev>
+        <SafeMode>NO</SafeMode>
+        <Version>1.00</Version>
+        <MCU>CC1352</MCU>
+        <OnChip>NO</OnChip>
+        <Filename>EOAD_Files/dmm_154sensor_remote_display_oad_lpstk_app_cc13x2r1lpstk_tirtos_ccs_syscfg_863MHz.bin</Filename>
+        <Security>Secure</Security>
+    </FirmwareEntry>
+    <FirmwareEntry>
+        <Title>TI 15.4 DMM Sensor for LPSTK - US (915MHz)</Title>
+        <Description>PGgzPlRJIDE1LjQgRE1NIFNlbnNvciBmb3IgTFBTVEsgLSBVUyAoOTE1TUh6KTwvaDM+DQpUSSAxNS40IFNlbnNvciBOb2RlIGV4YW1wbGUgZm9yIExQU1RLIChVUy9GQ0MgSUMgTW9kZSA5MTVNSHopPGJyPg0KPGJyPg0KPGJyPg0KPGJyPg0KQ0MxMzUyIExQU1RLIGxhbmRpbmcgcGFnZSA8YSBocmVmPSJodHRwczovL3d3dy50aS5jb20vdG9vbC9MUFNUSy1DQzEzNTJSIj5IZXJlIC4uLjwvYT48YnI+DQpUSSBSZXNvdXJjZSBFeHBsb3JlciBQcm9qZWN0IExpbmsgPGEgaHJlZj0iaHR0cDovL2Rldi50aS5jb20vdGlyZXgvZXhwbG9yZS9ub2RlP25vZGU9QU8uQ3dHR24wbG44eVM1blI5eVUzd19fcFRUSEJtdV9fTEFURVNUIj5IZXJlIC4uLjwvYT4=</Description>
+        <DevPack>
+        </DevPack>
+        <Custom>NO</Custom>
+        <WirelessStandard>802154</WirelessStandard>
+        <Type>App with Stacklibrary</Type>
+        <OADAlgo>3</OADAlgo>
+        <BoardType>CC1352R1 LPSTK - Multi-Sensor</BoardType>
+        <RequiredVersionRev>0.0</RequiredVersionRev>
+        <SafeMode>NO</SafeMode>
+        <Version>1.00</Version>
+        <MCU>CC1352</MCU>
+        <OnChip>NO</OnChip>
+        <Filename>EOAD_Files/dmm_154sensor_remote_display_oad_lpstk_app_cc13x2r1lpstk_tirtos_ccs_syscfg_915Mhz.bin</Filename>
+        <Security>Secure</Security>
+    </FirmwareEntry>
+    <FirmwareEntry>
+        <Title>Zigbee DMM Lightswitch for LPSTK</Title>
+        <Description>PGgzPlppZ2JlZSBETU0gTGlnaHRzd2l0Y2ggZm9yIExQU1RLPC9oMz4NClppZ2JlZSBFbmQgRGV2aWNlIGxpZ2h0c3dpdGNoIGltYWdlIHdpdGggQkxFIERNTSBmb3IgTFBTVEs8YnI+DQo8YnI+DQo8YnI+DQo8YnI+DQpDQzEzNTIgTFBTVEsgbGFuZGluZyBwYWdlIDxhIGhyZWY9Imh0dHBzOi8vd3d3LnRpLmNvbS90b29sL0xQU1RLLUNDMTM1MlIiPkhlcmUgLi4uPC9hPjxicj4NClRJIFJlc291cmNlIEV4cGxvcmVyIFByb2plY3QgTGluayA8YSBocmVmPSJodHRwOi8vZGV2LnRpLmNvbS90aXJleC9leHBsb3JlL25vZGU/bm9kZT1BS0dycWp2bEFmdnBhajJzUFRkQnRRX19wVFRIQm11X19MQVRFU1QiPkhlcmUgLi4uPC9hPg==</Description>
+        <DevPack>
+        </DevPack>
+        <Custom>NO</Custom>
+        <WirelessStandard>ZigBee</WirelessStandard>
+        <Type>App with Stacklibrary</Type>
+        <OADAlgo>3</OADAlgo>
+        <BoardType>CC1352R1 LPSTK - Multi-Sensor</BoardType>
+        <RequiredVersionRev>0.0</RequiredVersionRev>
+        <SafeMode>NO</SafeMode>
+        <Version>1.00</Version>
+        <MCU>CC1352</MCU>
+        <OnChip>NO</OnChip>
+        <Filename>EOAD_Files/dmm_zed_switch_remote_display_oad_app_cc13x2r1lpstk_tirtos_ccs_syscfg.bin</Filename>
+        <Security>Secure</Security>
+    </FirmwareEntry>
+</FirmwareEntries>

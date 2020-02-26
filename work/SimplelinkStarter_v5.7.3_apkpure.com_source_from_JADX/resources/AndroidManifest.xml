@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="70" android:versionName="5.7.3" package="com.ti.ble.simplelinkstarter">
+    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:name="com.p004ti.ble.sensortag.SensorTagApplicationClass" android:allowBackup="true">
+        <service android:name="org.eclipse.paho.android.service.MqttService" android:enabled="true"/>
+        <service android:name="com.p004ti.ble.audio.AdvancedRemoteBLEAudioService" android:enabled="true"/>
+        <activity android:theme="@style/SplashTheme" android:name="com.p004ti.device_selector.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/AppTheme.NoActionBar" android:label="@string/app_name" android:name="com.p004ti.device_selector.TopLevel_" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.p004ti.device_selector.DeviceActivity" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation|screenSize" android:parentActivityName="com.ti.device_selector.TopLevel_"/>
+        <activity android:name="com.p004ti.wifi.wifiDeviceActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:parentActivityName="com.ti.device_selector.TopLevel_"/>
+        <activity android:name="com.p004ti.wifi.ConfigureWiFiActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:parentActivityName="com.ti.device_selector.TopLevel_"/>
+        <activity android:name="com.p004ti.wifi.ConfigureWiFiActivityStageThreeAPModeProvisioning" android:configChanges="keyboardHidden|orientation|screenSize" android:parentActivityName="com.ti.device_selector.TopLevel_"/>
+        <activity android:name="com.p004ti.wifi.ConfigureWiFiActivityStageThreeAPModeProvisioning_" android:configChanges="keyboardHidden|orientation|screenSize" android:parentActivityName="com.ti.device_selector.TopLevel_"/>
+        <activity android:name="com.p004ti.wifi.wifiOTAActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:parentActivityName="com.ti.device_selector.TopLevel_"/>
+        <activity android:name="com.p004ti.device_selector.aboutActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:parentActivityName="com.ti.device_selector.TopLevel_"/>
+        <activity android:name="com.p004ti.device_selector.thirdPartyLicenseActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:parentActivityName="com.ti.device_selector.aboutActivity"/>
+        <activity android:name="com.p004ti.device_selector.licenseActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:parentActivityName="com.ti.device_selector.aboutActivity"/>
+        <activity android:name="com.p004ti.ble.dmm.TIDMMProvisioningActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:parentActivityName="com.ti.device_selector.DeviceActivity"/>
+        <activity android:name="com.p004ti.device_selector.filtering.FilterConfigurationActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:parentActivityName="com.ti.device_selector.TopLevel_"/>
+        <activity android:name="com.p004ti.ble.audio.AudioActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:parentActivityName="com.ti.device_selector.TopLevel_"/>
+        <activity android:name="com.p004ti.wifi.ConfigureWifiActivityStageTwo" android:configChanges="keyboardHidden|orientation|screenSize" android:parentActivityName="com.ti.device_selector.TopLevel_"/>
+        <activity android:name="com.p004ti.wifi.ConfigureWiFiActivityStageThreeNoProvisioning" android:configChanges="keyboardHidden|orientation|screenSize" android:parentActivityName="com.ti.device_selector.TopLevel_"/>
+        <activity android:name="com.p004ti.ble.common.oad.FWUpdateNGActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:parentActivityName="com.ti.device_selector.TopLevel_"/>
+        <activity android:name="com.p004ti.ble.common.oad.FWUpdateEOADActivity" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation|screenSize" android:parentActivityName="com.ti.device_selector.TopLevel_"/>
+        <activity android:name="com.p004ti.ble.common.BroadcastActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:parentActivityName="com.ti.device_selector.TopLevel_"/>
+        <activity android:name="com.p004ti.ble.common.oad.FWUpdateEOADNewFileSelectorStageOne" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation|screenSize" android:parentActivityName="com.ti.ble.common.oad.FWUpdateEOADActivity"/>
+        <activity android:name="com.p004ti.ble.common.oad.FWUpdateEOADNewFileSelectorStageTwo" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation|screenSize" android:parentActivityName="com.ti.ble.common.oad.FWUpdateEOADActivity"/>
+        <activity android:name="com.p004ti.device_selector.ServiceExplorerServicesActivity" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation|screenSize" android:parentActivityName="com.ti.device_selector.DeviceActivity"/>
+        <activity android:name="com.p004ti.device_selector.ServiceExplorerCharacteristicsActivity" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation|screenSize" android:parentActivityName="com.ti.device_selector.ServiceExplorerServicesActivity"/>
+        <activity android:label="Preferences" android:name="com.p004ti.device_selector.PreferencesActivity" android:screenOrientation="unspecified" android:configChanges="keyboardHidden|orientation|screenSize" android:parentActivityName="com.ti.device_selector.TopLevel_"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="android.support.VERSION" android:value="26.0.1"/>
+    </application>
+</manifest>

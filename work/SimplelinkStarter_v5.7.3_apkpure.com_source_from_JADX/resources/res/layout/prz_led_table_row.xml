@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/prz_led__icon" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@mipmap/project_zero_led" android:layout_weight="0.1"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="100dp" android:layout_weight="1">
+        <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="#666" android:id="@+id/prz_led_characteristic_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/prz_led_service_name"/>
+        <TextView android:id="@+id/ptzr_led_uuid_field" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="0dp"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+            <Space android:layout_width="100dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <ImageView android:id="@+id/prz_led_red_image" android:layout_width="100dp" android:layout_height="wrap_content" android:src="@mipmap/project_zero_red_led_off" android:layout_weight="1"/>
+            <Space android:layout_width="15dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <ImageView android:id="@+id/prz_led_green_image" android:layout_width="100dp" android:layout_height="wrap_content" android:src="@mipmap/project_zero_green_led_off" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+    <Space android:layout_width="20dp" android:layout_height="wrap_content"/>
+</TableRow>

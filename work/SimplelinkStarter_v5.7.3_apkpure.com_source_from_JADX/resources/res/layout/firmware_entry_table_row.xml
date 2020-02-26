@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="?android:attr/selectableItemBackground" android:clickable="true" android:layout_width="match_parent" android:layout_height="60dp">
+    <LinearLayout android:orientation="vertical" android:padding="3dp" android:paddingTop="0dp" android:layout_width="match_parent" android:layout_height="50dp" android:layout_weight="1">
+        <TextView android:textStyle="bold" android:textColor="#000000" android:id="@+id/fetr_board_name_and_version" android:paddingLeft="3dp" android:paddingTop="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Board Name And (Version)"/>
+        <TextView android:textSize="10sp" android:textColor="#000000" android:id="@+id/fetr_short_description" android:paddingLeft="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Short Description"/>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/fetr_download_button" android:paddingLeft="0dp" android:layout_width="35dp" android:layout_height="50dp" android:src="@mipmap/download" android:layout_weight="0.1" android:paddingEnd="10dp"/>
+</TableRow>

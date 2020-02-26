@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/smdtr" android:background="?android:attr/selectableItemBackground" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/smdtr_icon" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@mipmap/sensortag2_motion" android:layout_weight="0.1"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="#666" android:id="@+id/smdtr_characteristic_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/characteristic_title"/>
+        <TextView android:textSize="13dp" android:textColor="#666" android:id="@+id/smdtr_value" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/double_zero_units"/>
+        <com.p004ti.util.TrippleSparkLineView android:id="@+id/smdtr_sparkline1" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="50dp"/>
+        <TextView android:textColor="#666" android:id="@+id/smdtr_value2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/double_zero_units"/>
+        <com.p004ti.util.TrippleSparkLineView android:id="@+id/smdtr_sparkline2" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="50dp"/>
+        <TextView android:textColor="#666" android:id="@+id/smdtr_value3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/double_zero_units"/>
+        <com.p004ti.util.TrippleSparkLineView android:id="@+id/smdtr_sparkline3" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="50dp"/>
+        <android.widget.Switch android:textColor="#666" android:id="@+id/smdtr_wos" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:text="@string/wake_on_shake"/>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/smdtr_disclose_icon" android:layout_width="25dp" android:layout_height="wrap_content" android:src="@mipmap/cell_disclose_indicator" android:layout_weight="0.1"/>
+</TableRow>

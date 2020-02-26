@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="left" android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_gravity="left|center_vertical|center_horizontal|center" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/cur_image" android:layout_weight="1" style="@style/nameStyle"/>
+        <TextView android:id="@+id/tw_target" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/no_image" android:layout_weight="1.5" style="@style/dataStyle1"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="left" android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/fw_activity_update_img" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/new_image" android:layout_weight="1" style="@style/nameStyle"/>
+        <TextView android:gravity="left" android:id="@+id/tw_file" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/no_image_sel" android:layout_weight="1.5" android:textAlignment="gravity" style="@style/dataStyle1"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:gravity="center" android:layout_gravity="center" android:id="@+id/btn_load_a" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/load_image_a" android:onClick="onLoad" style="?android:attr/buttonStyle"/>
+        <Button android:layout_gravity="center" android:id="@+id/btn_load_b" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/load_image_b" android:onClick="onLoad" style="?android:attr/buttonStyle"/>
+        <Button android:layout_gravity="center" android:id="@+id/btn_load_c" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/load_image_c" android:onClick="onLoadCustom" style="?android:attr/buttonStyle"/>
+    </LinearLayout>
+    <TextView android:textSize="14sp" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@+id/tw_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="@string/idle" android:layout_weight="0" style="@style/dataStyle"/>
+    <ProgressBar android:id="@+id/pb_progress" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:maxHeight="15dp" android:max="100" android:progress="0" android:indeterminate="false" android:minHeight="15dp" style="@style/Widget.Holo.Light.SeekBar"/>
+    <TextView android:layout_gravity="bottom" android:id="@+id/tw_log" android:padding="5dp" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1000" android:lines="10" android:layout_weight="0" style="@style/logStyle"/>
+    <Button android:layout_gravity="bottom" android:id="@+id/btn_start" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/start_prog" android:layout_weight="0" android:onClick="onStart"/>
+</LinearLayout>

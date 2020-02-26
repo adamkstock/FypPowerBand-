@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="5dp" android:paddingEnd="5dp">
+    <LinearLayout android:orientation="vertical" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="0.9">
+        <TextView android:textStyle="bold" android:id="@+id/trsec_service_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="0 -  Characteristic Name"/>
+        <TextView android:textSize="12sp" android:textColor="@color/colorAccent" android:id="@+id/trsec_uuid_title" android:paddingTop="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="UUID : xxxx"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="3dp">
+            <TextView android:gravity="center_vertical" android:id="@+id/textView57" android:layout_width="wrap_content" android:layout_height="20dp" android:text="Properties:" android:layout_weight="0.9"/>
+            <ImageView android:id="@+id/trsec_read_prop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/read_gray" android:layout_weight="0.05"/>
+            <ImageView android:id="@+id/trsec_write_prop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/write_gray" android:layout_weight="0.05"/>
+            <ImageView android:id="@+id/trsec_notification_prop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/notification_gray" android:layout_weight="0.05"/>
+            <ImageView android:id="@+id/trsec_indicate_prop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/indicate_gray" android:layout_weight="0.05"/>
+        </LinearLayout>
+        <TextView android:id="@+id/trsec_user_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="User Description:" android:layout_weight="0.9"/>
+        <TextView android:ellipsize="marquee" android:gravity="start" android:id="@+id/trsec_value" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="Value:" android:scrollHorizontally="false" android:singleLine="true"/>
+        <TextView android:id="@+id/trsec_value_string" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="Value (utf8):"/>
+    </LinearLayout>
+</TableRow>

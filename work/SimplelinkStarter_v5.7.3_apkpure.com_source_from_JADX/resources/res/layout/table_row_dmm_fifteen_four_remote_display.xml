@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/tr_dmm_fifteen_four_switch_icon" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@mipmap/dmm_rd" android:layout_weight="0.1"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="140dp" android:layout_weight="1">
+        <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="#666" android:id="@+id/tr_dmm_fifteen_four_switch_characteristic_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/table_row_generic_table_row"/>
+        <Button android:id="@+id/tr_dmm_fifteen_four_toggle_coll_led_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/dmm_rd_toggle_conc_led_button"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="10sp" android:textStyle="bold" android:id="@+id/tr_dmm_fifteen_four_switch_target_addr_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Node Reporting interval:" android:layout_weight="1"/>
+            <TextView android:textSize="10sp" android:gravity="end" android:id="@+id/tr_dmm_fifteen_four_node_reporting_interval_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tr_zigbee_target_address_type" android:layout_weight="1" android:textAlignment="viewEnd"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="10sp" android:textStyle="bold" android:id="@+id/textView90" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Last Node Data:" android:layout_weight="1"/>
+            <TextView android:textSize="10sp" android:gravity="end" android:id="@+id/tr_dmm_fifteen_four_last_node_data_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tr_zigbee_target_address" android:layout_weight="1" android:textAlignment="viewEnd"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/tr_dmm_fifteen_four_cell_disclose" android:visibility="invisible" android:layout_width="25dp" android:layout_height="wrap_content" android:src="@mipmap/cell_disclose_indicator" android:layout_weight="0.1"/>
+</TableRow>

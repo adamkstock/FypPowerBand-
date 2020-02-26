@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="25dp" android:layout_gravity="center_horizontal" android:id="@+id/textView20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BLE Audio Control"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="40dp"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="100dp">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/aa_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/sensortag2_audio" android:paddingStart="10dp"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:id="@+id/textView22" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/volume_meter" android:textAlignment="center"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/aa_led_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/led_off" android:paddingStart="20dp"/>
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/aa_led_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/led_off"/>
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/aa_led_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/led_off"/>
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/aa_led_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/led_off"/>
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/aa_led_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/led_off"/>
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/aa_led_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/led_off"/>
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/aa_led_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/led_off"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/textView21" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/connection_status" android:layout_weight="0.1" android:paddingStart="10dp"/>
+        <TextView android:layout_gravity="right" android:id="@+id/aa_con_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/not_connected" android:paddingEnd="10dp"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/textView24" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/current_connection_interval" android:layout_weight="0.1" android:paddingStart="10dp"/>
+        <TextView android:layout_gravity="right" android:id="@+id/aa_con_interval" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/na" android:paddingEnd="10dp"/>
+    </LinearLayout>
+</LinearLayout>

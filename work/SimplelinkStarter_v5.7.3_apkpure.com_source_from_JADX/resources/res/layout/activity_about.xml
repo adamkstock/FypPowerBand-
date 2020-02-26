@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/scrollView5" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="0.1">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="1">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@+id/imageView5" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/sensortag2"/>
+            <TextView android:textSize="25dp" android:layout_gravity="center_horizontal" android:id="@+id/aa_version_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name"/>
+            <ScrollView android:id="@+id/scrollView6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.1">
+                <TextView android:id="@+id/textView19" android:padding="15dp" android:layout_width="match_parent" android:layout_height="300dp" android:text="@string/general_info"/>
+            </ScrollView>
+            <Button android:id="@+id/aa_thirdparty_licenses" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/third_party_component_licenses"/>
+            <Button android:layout_gravity="center_horizontal" android:id="@+id/aa_license_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/application_License"/>
+            <TextView android:id="@+id/textView18" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/years_texas_instruments" android:textAlignment="center"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="right" android:orientation="horizontal" android:background="#000000" android:layout_width="match_parent" android:layout_height="30dp">
+        <ImageView android:id="@+id/imageView6" android:layout_width="130dp" android:layout_height="wrap_content" android:src="@mipmap/ti_logo_vector_with_text"/>
+    </LinearLayout>
+</LinearLayout>

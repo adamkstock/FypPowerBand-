@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" android:paddingStart="10dp">
+            <TextView android:textSize="24sp" android:textStyle="bold" android:id="@+id/fd_firmware_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Firmware Name" android:layout_weight="1"/>
+            <TextView android:id="@+id/fd_firmware_version" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Image Version" android:layout_weight="1"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/fd_firmware_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/sensortag2" android:layout_weight="0.1" android:paddingEnd="10dp"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingTop="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="10dp" android:paddingEnd="10dp">
+        <TextView android:id="@+id/textView44" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Wireless Standard :" android:layout_weight="1"/>
+        <TextView android:gravity="right" android:id="@+id/fd_wireless_standard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bluetooth Smart" android:layout_weight="1" android:textAlignment="textEnd"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="10dp" android:paddingEnd="10dp">
+        <TextView android:id="@+id/textView51" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MCU :" android:layout_weight="1"/>
+        <TextView android:gravity="right" android:id="@+id/fd_mcu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CC2650" android:layout_weight="1" android:textAlignment="textEnd"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="10dp" android:paddingEnd="10dp">
+        <TextView android:id="@+id/textView54" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Board Type :" android:layout_weight="1"/>
+        <TextView android:gravity="right" android:id="@+id/fd_board_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CC2650 SensorTag" android:layout_weight="1" android:textAlignment="textEnd"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="10dp" android:paddingEnd="10dp">
+        <TextView android:id="@+id/textView56" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Image Type :" android:layout_weight="1"/>
+        <TextView android:gravity="right" android:id="@+id/fd_image_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1 - Application" android:layout_weight="1" android:textAlignment="textEnd"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="10dp" android:paddingEnd="10dp">
+        <TextView android:id="@+id/textView58" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Size :" android:layout_weight="1"/>
+        <TextView android:gravity="right" android:id="@+id/fd_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="64Kb" android:layout_weight="1" android:textAlignment="textEnd"/>
+    </LinearLayout>
+    <TextView android:id="@+id/fd_description_html" android:paddingTop="20dp" android:layout_width="match_parent" android:layout_height="match_parent" android:text="Description in html" android:minLines="10" android:paddingStart="10dp" android:paddingEnd="10dp"/>
+</LinearLayout>

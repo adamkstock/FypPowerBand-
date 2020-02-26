@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:paddingLeft="20dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="50dp">
+    <ImageView android:id="@+id/tr_fw_ng_img_sel_two_wireless_std_icon" android:paddingTop="5dp" android:layout_width="40dp" android:layout_height="40dp" android:src="@mipmap/fw_bt" android:layout_weight="0.1"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="0.9">
+        <TextView android:id="@+id/tr_fw_ng_img_sel_two_image_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="TextView" android:paddingStart="5dp"/>
+        <TextView android:textSize="12sp" android:id="@+id/tr_fw_ng_img_sel_two_image_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="TextView" android:paddingStart="5dp"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/imageView11" android:layout_width="25dp" android:layout_height="wrap_content" android:src="@mipmap/cell_disclose_indicator" android:layout_weight="0.1"/>
+</LinearLayout>

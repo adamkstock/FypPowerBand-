@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:paddingLeft="0dp" android:paddingRight="0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/scrollView10" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@+id/afun_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/sensortag2_oad"/>
+            <TextView android:layout_gravity="center_horizontal" android:id="@+id/textView41" android:paddingBottom="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/current_fw"/>
+            <LinearLayout android:orientation="horizontal" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="18dp" android:id="@+id/textView42" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/version" android:layout_weight="1"/>
+                <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="@android:color/holo_blue_bright" android:id="@+id/afun_version_label" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/unknown_date" android:layout_weight="1" android:textAlignment="textEnd"/>
+            </LinearLayout>
+            <Button android:layout_gravity="center_horizontal" android:id="@+id/afun_sel_fw_file_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Select FW file"/>
+            <ProgressBar android:id="@+id/afun_progress_bar" android:paddingLeft="5dp" android:paddingTop="15dp" android:paddingRight="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="?android:attr/progressBarStyleHorizontal"/>
+            <ScrollView android:id="@+id/scrollView11" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="18dp" android:layout_gravity="center_horizontal" android:id="@+id/afun_progress_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/zero_percent"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:id="@+id/textView36" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/block" android:layout_weight="1" android:textAlignment="textStart"/>
+                <TextView android:id="@+id/afun_block_label" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/four_out_of_four" android:layout_weight="1" android:textAlignment="textStart"/>
+                <TextView android:id="@+id/textView39" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/bytes" android:layout_weight="1" android:textAlignment="textEnd"/>
+                <TextView android:id="@+id/afun_bytes_label" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/five_out_of_five" android:layout_weight="1" android:textAlignment="textEnd"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:id="@+id/textView45" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/speed" android:layout_weight="1" android:textAlignment="textStart"/>
+                <TextView android:id="@+id/afun_bytes_per_sec_label" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/bs" android:layout_weight="1" android:textAlignment="textStart"/>
+                <TextView android:id="@+id/textView47" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/con_interval" android:layout_weight="1" android:textAlignment="textEnd"/>
+                <TextView android:id="@+id/afun_con_interval" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/ms" android:layout_weight="1" android:textAlignment="textEnd"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingTop="15dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ToggleButton android:enabled="false" android:id="@+id/afun_safe_mode_button" android:layout_width="0dp" android:layout_height="wrap_content" android:textOn="Safe Mode" android:textOff="Safe Mode" android:text="New ToggleButton" android:layout_weight="1"/>
+                <ToggleButton android:enabled="false" android:id="@+id/afun_high_speed_mode_button" android:visibility="visible" android:layout_width="0dp" android:layout_height="wrap_content" android:textOn="High Speed" android:textOff="High Speed" android:text="New ToggleButton" android:layout_weight="1"/>
+                <ToggleButton android:enabled="false" android:id="@+id/afun_advanced_mode_button" android:visibility="visible" android:layout_width="0dp" android:layout_height="wrap_content" android:textOn="Advanced" android:textOff="Advanced" android:text="New ToggleButton" android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:id="@+id/textView49" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/use_notifications" android:layout_weight="1"/>
+                <Switch android:enabled="false" android:id="@+id/afun_use_notifications_switch" android:visibility="visible" android:layout_width="0dp" android:layout_height="wrap_content" android:checked="true" android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:id="@+id/textView50" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/timer_delay" android:layout_weight="2"/>
+                <TextView android:id="@+id/afun_timer_delay_label" android:paddingRight="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/xx_ms" android:layout_weight="2" android:textAlignment="textEnd"/>
+                <Button android:enabled="false" android:id="@+id/afun_timer_plus_button" android:visibility="visible" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/plus_sign" android:layout_weight="1" style="?android:attr/buttonStyleSmall"/>
+                <Button android:enabled="false" android:id="@+id/afun_timer_minus_button" android:visibility="visible" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/minus_sign" android:layout_weight="1" style="?android:attr/buttonStyleSmall"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:id="@+id/textView52" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/packets_per_timer_notif" android:layout_weight="2"/>
+                <TextView android:id="@+id/afun_packets_per_timer" android:paddingRight="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/xx" android:layout_weight="2" android:textAlignment="textEnd"/>
+                <Button android:enabled="false" android:id="@+id/afun_packets_per_timer_plus_button" android:visibility="visible" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/plus_sign" android:layout_weight="1" style="?android:attr/buttonStyleSmall"/>
+                <Button android:enabled="false" android:id="@+id/afun_packets_per_timer_minus_button" android:visibility="visible" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/minus_sign" android:layout_weight="1" style="?android:attr/buttonStyleSmall"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

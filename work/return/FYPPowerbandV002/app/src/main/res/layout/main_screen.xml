@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <!--  Button to create user screen -->
+    <Button android:id="@+id/btnCreateUser"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Create a user"
+        android:layout_marginTop="25dip"/>
+
+    <!--  Button to create a new notification screen -->
+    <Button android:id="@+id/btnSetUserBand"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Make an Alert"
+        android:layout_marginTop="25dip"/>
+
+    <!--  Button to create a new notification screen -->
+    <Button android:id="@+id/btnGoToDev"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Development Menu"
+        android:layout_marginTop="25dip"/>
+
+</LinearLayout>

@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gattuuid xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <profile>
+        <name>Gatt
+        </name>
+        <group>Descriptors 
+            <item uuid="00002900-0000-1000-8000-00805f9b34fb">Characteristic Extended Properties
+            </item>
+            <item uuid="00002901-0000-1000-8000-00805f9b34fb">Characteristic User Description
+            </item>
+            <item descr="Write &quot;01:00&quot; to enable notifications, &quot;00:00&quot; to disable" uuid="00002902-0000-1000-8000-00805f9b34fb">Client Characteristic Configuration
+            </item>
+            <item uuid="00002903-0000-1000-8000-00805f9b34fb">Server Characteristic Configuration
+            </item>
+            <item uuid="00002904-0000-1000-8000-00805f9b34fb">Characteristic Presentation Format
+            </item>
+            <item uuid="00002905-0000-1000-8000-00805f9b34fb">Characteristic Aggregate Format
+            </item>
+            <item uuid="00002906-0000-1000-8000-00805f9b34fb">Valid Range
+            </item>
+            <item uuid="00002907-0000-1000-8000-00805f9b34fb">External Report Reference
+            </item>
+            <item uuid="00002908-0000-1000-8000-00805f9b34fb">Report Reference
+            </item>
+        </group>
+        <group>Characteristics 
+            <item uuid="00002a00-0000-1000-8000-00805f9b34fb">Device Name
+            </item>
+            <item uuid="00002a01-0000-1000-8000-00805f9b34fb">Appearance
+            </item>
+            <item uuid="00002a02-0000-1000-8000-00805f9b34fb">Peripheral Privacy Flag
+            </item>
+            <item uuid="00002a03-0000-1000-8000-00805f9b34fb">Reconnection Address
+            </item>
+            <item uuid="00002a04-0000-1000-8000-00805f9b34fb">Peripheral Preferred Connection Parameters
+            </item>
+            <item uuid="00002a05-0000-1000-8000-00805f9b34fb">Service Changed
+            </item>
+            <item uuid="00002a06-0000-1000-8000-00805f9b34fb">Alert Level
+            </item>
+            <item uuid="00002a07-0000-1000-8000-00805f9b34fb">Tx Power Level
+            </item>
+            <item uuid="00002a08-0000-1000-8000-00805f9b34fb">Date Time
+            </item>
+            <item uuid="00002a09-0000-1000-8000-00805f9b34fb">Day of Week
+            </item>
+            <item uuid="00002a0a-0000-1000-8000-00805f9b34fb">Day Date Time
+            </item>
+            <item uuid="00002a0c-0000-1000-8000-00805f9b34fb">Exact Time 256
+            </item>
+            <item uuid="00002a0d-0000-1000-8000-00805f9b34fb">DST Offset
+            </item>
+            <item uuid="00002a0e-0000-1000-8000-00805f9b34fb">Time Zone
+            </item>
+            <item uuid="00002a0f-0000-1000-8000-00805f9b34fb">Local Time Information
+            </item>
+            <item uuid="00002a11-0000-1000-8000-00805f9b34fb">Time with DST
+            </item>
+            <item uuid="00002a12-0000-1000-8000-00805f9b34fb">Time Accuracy
+            </item>
+            <item uuid="00002a13-0000-1000-8000-00805f9b34fb">Time Source
+            </item>
+            <item uuid="00002a14-0000-1000-8000-00805f9b34fb">Reference Time Information
+            </item>
+            <item uuid="00002a16-0000-1000-8000-00805f9b34fb">Time Update Control Point
+            </item>
+            <item uuid="00002a17-0000-1000-8000-00805f9b34fb">Time Update State
+            </item>
+            <item uuid="00002a18-0000-1000-8000-00805f9b34fb">Glucose Measurement
+            </item>
+            <item uuid="00002a19-0000-1000-8000-00805f9b34fb">Battery Level
+            </item>
+            <item uuid="00002a1c-0000-1000-8000-00805f9b34fb">Temperature Measurement
+            </item>
+            <item uuid="00002a1d-0000-1000-8000-00805f9b34fb">Temperature Type
+            </item>
+            <item uuid="00002a1e-0000-1000-8000-00805f9b34fb">Intermediate Temperature
+            </item>
+            <item uuid="00002a21-0000-1000-8000-00805f9b34fb">Measurement Interval
+            </item>
+            <item uuid="00002a22-0000-1000-8000-00805f9b34fb">Boot Keyboard Input Report
+            </item>
+            <item uuid="00002a23-0000-1000-8000-00805f9b34fb">System ID
+            </item>
+            <item uuid="00002a24-0000-1000-8000-00805f9b34fb">Model Number String
+            </item>
+            <item uuid="00002a25-0000-1000-8000-00805f9b34fb">Serial Number String
+            </item>
+            <item uuid="00002a26-0000-1000-8000-00805f9b34fb">Firmware Revision String
+            </item>
+            <item uuid="00002a27-0000-1000-8000-00805f9b34fb">Hardware Revision String
+            </item>
+            <item uuid="00002a28-0000-1000-8000-00805f9b34fb">Software Revision String
+            </item>
+            <item uuid="00002a29-0000-1000-8000-00805f9b34fb">Manufacturer Name String
+            </item>
+            <item uuid="00002a2a-0000-1000-8000-00805f9b34fb">IEEE 11073-20601 Regulatory Certification Data List
+            </item>
+            <item uuid="00002a2b-0000-1000-8000-00805f9b34fb">Current Time
+            </item>
+            <item uuid="00002a31-0000-1000-8000-00805f9b34fb">Scan Refresh
+            </item>
+            <item uuid="00002a32-0000-1000-8000-00805f9b34fb">Boot Keyboard Output Report
+            </item>
+            <item uuid="00002a33-0000-1000-8000-00805f9b34fb">Boot Mouse Input Report
+            </item>
+            <item uuid="00002a34-0000-1000-8000-00805f9b34fb">Glucose Measurement Context
+            </item>
+            <item uuid="00002a35-0000-1000-8000-00805f9b34fb">Blood Pressure Measurement
+            </item>
+            <item uuid="00002a36-0000-1000-8000-00805f9b34fb">Intermediate Cuff Pressure
+            </item>
+            <item uuid="00002a37-0000-1000-8000-00805f9b34fb">Heart Rate Measurement
+            </item>
+            <item uuid="00002a38-0000-1000-8000-00805f9b34fb">Body Sensor Location
+            </item>
+            <item uuid="00002a39-0000-1000-8000-00805f9b34fb">Heart Rate Control Point
+            </item>
+            <item uuid="00002a3f-0000-1000-8000-00805f9b34fb">Alert Status
+            </item>
+            <item uuid="00002a40-0000-1000-8000-00805f9b34fb">Ringer Control Point
+            </item>
+            <item uuid="00002a41-0000-1000-8000-00805f9b34fb">Ringer Setting
+            </item>
+            <item uuid="00002a42-0000-1000-8000-00805f9b34fb">Alert Category ID Bit Mask
+            </item>
+            <item uuid="00002a43-0000-1000-8000-00805f9b34fb">Alert Category ID
+            </item>
+            <item uuid="00002a44-0000-1000-8000-00805f9b34fb">Alert Notification Control Point
+            </item>
+            <item uuid="00002a45-0000-1000-8000-00805f9b34fb">Unread Alert Status
+            </item>
+            <item uuid="00002a46-0000-1000-8000-00805f9b34fb">New Alert
+            </item>
+            <item uuid="00002a47-0000-1000-8000-00805f9b34fb">Supported New Alert Category
+            </item>
+            <item uuid="00002a48-0000-1000-8000-00805f9b34fb">Supported Unread Alert Category
+            </item>
+            <item uuid="00002a49-0000-1000-8000-00805f9b34fb">Blood Pressure Feature
+            </item>
+            <item uuid="00002a4a-0000-1000-8000-00805f9b34fb">HID Information
+            </item>
+            <item uuid="00002a4b-0000-1000-8000-00805f9b34fb">Report Map
+            </item>
+            <item uuid="00002a4c-0000-1000-8000-00805f9b34fb">HID Control Point
+            </item>
+            <item uuid="00002a4d-0000-1000-8000-00805f9b34fb">Report
+            </item>
+            <item uuid="00002a4e-0000-1000-8000-00805f9b34fb">Protocol Mode
+            </item>
+            <item uuid="00002a4f-0000-1000-8000-00805f9b34fb">Scan Interval Window
+            </item>
+            <item uuid="00002a50-0000-1000-8000-00805f9b34fb">PnP ID
+            </item>
+            <item uuid="00002a51-0000-1000-8000-00805f9b34fb">Glucose Feature
+            </item>
+            <item uuid="00002a52-0000-1000-8000-00805f9b34fb">Record Access Control Point
+            </item>
+            <item uuid="00002ac9-0000-1000-8000-00805f9b34fb">Resolvable Private Address Only
+            </item>
+        </group>
+        <group>Services 
+            <item uuid="00001800-0000-1000-8000-00805f9b34fb">Generic Access Service
+            </item>
+            <item uuid="00001801-0000-1000-8000-00805f9b34fb">Generic Attribute Service
+            </item>
+            <item uuid="00001802-0000-1000-8000-00805f9b34fb">Immediate Alert Service
+            </item>
+            <item uuid="00001803-0000-1000-8000-00805f9b34fb">Link Loss Service
+            </item>
+            <item uuid="00001804-0000-1000-8000-00805f9b34fb">Tx Power Service
+            </item>
+            <item uuid="00001805-0000-1000-8000-00805f9b34fb">Current Time Service
+            </item>
+            <item uuid="00001806-0000-1000-8000-00805f9b34fb">Reference Time Update Service
+            </item>
+            <item uuid="00001807-0000-1000-8000-00805f9b34fb">Next DST Change Service
+            </item>
+            <item uuid="00001808-0000-1000-8000-00805f9b34fb">Glucose Service
+            </item>
+            <item uuid="00001809-0000-1000-8000-00805f9b34fb">Health Thermometer Service
+            </item>
+            <item icon="deviceinfo" uuid="0000180a-0000-1000-8000-00805f9b34fb">Device Information Service
+            </item>
+            <item uuid="0000180d-0000-1000-8000-00805f9b34fb">Heart Rate Service
+            </item>
+            <item uuid="0000180e-0000-1000-8000-00805f9b34fb">Phone Alert Status Service
+            </item>
+            <item uuid="0000180f-0000-1000-8000-00805f9b34fb">Battery Service
+            </item>
+            <item uuid="00001810-0000-1000-8000-00805f9b34fb">Blood Pressure Service
+            </item>
+            <item uuid="00001811-0000-1000-8000-00805f9b34fb">Alert Notification Service
+            </item>
+            <item uuid="00001812-0000-1000-8000-00805f9b34fb">Human Interface Device Service
+            </item>
+            <item uuid="00001813-0000-1000-8000-00805f9b34fb">Scan Parameters Service
+            </item>
+        </group>
+        <group>Declarations 
+            <item uuid="00002800-0000-1000-8000-00805f9b34fb">GATT Primary Service Declaration
+            </item>
+            <item uuid="00002801-0000-1000-8000-00805f9b34fb">GATT Secondary Service Declaration
+            </item>
+            <item uuid="00002802-0000-1000-8000-00805f9b34fb">GATT Include Declaration
+            </item>
+            <item uuid="00002803-0000-1000-8000-00805f9b34fb">GATT Characteristic Declaration
+            </item>
+        </group>
+    </profile>
+    <profile>
+        <name>Sensor Tag
+        </name>
+        <item uuid="f000aa00-0451-4000-b000-000000000000">IR Temperature Service
+        </item>
+        <item descr="ObjectLSB:ObjectMSB:AmbientLSB:AmbientMSB" icon="irtemperature" uuid="f000aa01-0451-4000-b000-000000000000">IR Temperature Data
+        </item>
+        <item descr="Write &quot;01&quot; to start Sensor and Measurements, &quot;00&quot; to put to sleep" uuid="f000aa02-0451-4000-b000-000000000000">IR Temperature Config
+        </item>
+        <item descr="Period = [Input*10] ms, (lower limit 300 ms), default 1000 ms" uuid="f000aa03-0451-4000-b000-000000000000">IR Temperature Period
+        </item>
+        <item uuid="f000aa10-0451-4000-b000-000000000000">Accelerometer Service
+        </item>
+        <item descr="X : Y : Z Coordinates" icon="accelerometer" uuid="f000aa11-0451-4000-b000-000000000000">Accelerometer Data
+        </item>
+        <item descr="Write &quot;01&quot; to select range 2G, &quot;02&quot; for 4G, &quot;03&quot; for 8G, &quot;00&quot; disable sensor" uuid="f000aa12-0451-4000-b000-000000000000">Accelerometer Config
+        </item>
+        <item descr="Period = [Input*10] ms, (lower limit 100ms), default 1000 ms" uuid="f000aa13-0451-4000-b000-000000000000">Accelerometer Period
+        </item>
+        <item uuid="f000aa20-0451-4000-b000-000000000000">Humidity Service
+        </item>
+        <item descr="TempLSB:TempMSB:HumidityLSB:HumidityMSB" icon="humidity" uuid="f000aa21-0451-4000-b000-000000000000">Humidity Data
+        </item>
+        <item descr="Write &quot;01&quot; to start measurements, &quot;00&quot; to stop" uuid="f00aa22-0451-4000-b000-000000000000">Humidity Config
+        </item>
+        <item descr="Period = [Input*10] ms, (lower limit 100 ms), default 1000 ms" uuid="f000aa23-0451-4000-b000-000000000000">Humidity Period
+        </item>
+        <item uuid="f000aa30-0451-4000-b000-000000000000">Magnetometer Service
+        </item>
+        <item descr="XLSB:XMSB:YLSB:YMSB: ZLSB:ZMSB Coordinates" uuid="f000aa31-0451-4000-b000-000000000000">Magnetometer Data
+        </item>
+        <item descr="Write &quot;01&quot; to start Sensor and Measurements, &quot;00&quot; to put to sleep" uuid="f000aa32-0451-4000-b000-000000000000">Magnetometer Config
+        </item>
+        <item descr="Period = [Input*10]ms (lower limit 100ms), default 2000ms" uuid="f000aa33-0451-4000-b000-000000000000">Magnetometer Period
+        </item>
+        <item uuid="f000aa40-0451-4000-b000-000000000000">Barometer Service
+        </item>
+        <item descr="TempLSB:TempMSB:PressureLSB:PressureMSB" icon="barometer" uuid="f000aa41-0451-4000-b000-000000000000">Barometer Data
+        </item>
+        <item descr="Write &quot;01&quot; to start Sensor and Measurements, &quot;00&quot; to put to sleep, &quot;02&quot; to read calibration values from sensor" uuid="f000aa42-0451-4000-b000-000000000000">Barometer Configuration
+        </item>
+        <item descr="When write &quot;02&quot; to Barometer conf. has been issued, the calibration values is found here." uuid="f000aa43-0451-4000-b000-000000000000">Barometer Calibration
+        </item>
+        <item descr="Period = [Input*10] ms, (lower limit 100 ms), default 1000 ms" uuid="f000aa44-0451-4000-b000-000000000000">Barometer Period
+        </item>
+        <item uuid="f000aa50-0451-4000-b000-000000000000">Gyroscope Service
+        </item>
+        <item descr="XLSB:XMSB:YLSB:YMSB: ZLSB:ZMSB" uuid="f000aa51-0451-4000-b000-000000000000">Gyroscope Data
+        </item>
+        <item descr="Write 0 to turn off gyroscope, 1 to enable X axis only, 2 to enable Y axis only, 3 = X and Y, 4 = Z only, 5 = X and Z, 6 = Y and Z, 7 = X, Y and Z" uuid="f000aa52-0451-4000-b000-000000000000">Gyroscope Config
+        </item>
+        <item descr="Period = [Input*10]ms (lower limit 100ms), default 2000ms" uuid="f000aa53-0451-4000-b000-000000000000">Gyroscope Period
+        </item>
+        <item uuid="f000aa60-0451-4000-b000-000000000000">Test Service
+        </item>
+        <item descr="Self-test results (high bit indicates PASSED): Bit 0:IR temp, 1:Humidity, 2:Magnetometer, 3:accelerometer, 4:Barometer, 5:Gyroscope" uuid="f000aa61-0451-4000-b000-000000000000">Test Data
+        </item>
+        <item descr="bit 7: enable test mode; bit 0-1 LED bit mask" uuid="f000aa62-0451-4000-b000-000000000000">Test Config
+        </item>
+        <item uuid="f000aa70-0451-4000-b000-000000000000">Luxometer Service
+        </item>
+        <item icon="lightsensor" uuid="f000aa71-0451-4000-b000-000000000000">Luxometer Data
+        </item>
+        <item uuid="f000aa72-0451-4000-b000-000000000000">Luxometer Config
+        </item>
+        <item uuid="f000aa80-0451-4000-b000-000000000000">Motion Service
+        </item>
+        <item icon="motion" uuid="f000aa81-0451-4000-b000-000000000000">Motion Data
+        </item>
+        <item uuid="f000aa82-0451-4000-b000-000000000000">Motion Config
+        </item>
+        <item uuid="f000ccc0-0451-4000-b000-000000000000">Connection Control Service
+        </item>
+        <item descr="ConnInterval,SlaveLatency,SupervisionTimeout (2 bytes each)" uuid="f000ccc1-0451-4000-b000-000000000000">Connection Parameters
+        </item>
+        <item descr="MinConnInterval,MaxConnInterval,SlaveLatency,SupervisionTimeout (2 bytes each)" uuid="f000ccc2-0451-4000-b000-000000000000">Request Connection Parameters
+        </item>
+        <item descr="Change the value to disconnect" uuid="f000ccc3-0451-4000-b000-000000000000">Disconnect request
+        </item>
+    </profile>
+    <profile>
+        <name>Display Service
+        </name>
+        <item uuid="f000ad00-0451-4000-b000-000000000000">Display Control Service
+        </item>
+        <item icon="display" uuid="f000ad01-0451-4000-b000-000000000000">Display Data
+        </item>
+        <item uuid="f000ad02-0451-4000-b000-000000000000">Display Control
+        </item>
+    </profile>
+    <profile>
+        <name>Poly Tag
+        </name>
+        <item uuid="f000ad10-0451-4000-b000-000000000000">Accelerometer Service
+        </item>
+        <item descr="X : Y : Z Coordinates" uuid="f000ad11-0451-4000-b000-000000000000">Accelerometer Data
+        </item>
+        <item descr="Write &quot;01&quot; to start Sensor and Measurements, &quot;00&quot; to put to sleep" uuid="f000ad12-0451-4000-b000-000000000000">Accelerometer Config
+        </item>
+        <item descr="Period = [Input*10] ms, (lower limit 100ms), default 1000 ms" uuid="f000ad13-0451-4000-b000-000000000000">Accelerometer Period
+        </item>
+        <item uuid="f000ad20-0451-4000-b000-000000000000">Polypower Service
+        </item>
+        <item uuid="f000ad21-0451-4000-b000-000000000000">Polypower Data
+        </item>
+        <item descr="Set bit 0 to enable input 0 etc. Write 0 to disable all inputs, 1F to enable all." uuid="f000ad22-0451-4000-b000-000000000000">Polypower Config
+        </item>
+        <item descr="Period = [Input*10] ms (range 100-1000 ms, default 250 ms)" uuid="f000ad23-0451-4000-b000-000000000000">Polypower Period
+        </item>
+        <item descr="Threshold (raw unsigned 16-bit hex). Samples below this value are ignored." uuid="f000ad24-0451-4000-b000-000000000000">Polypower Threshold
+        </item>
+        <item uuid="f000ad30-0451-4000-b000-000000000000">Test Service
+        </item>
+        <item descr="Self-test results (high bit indicates PASSED) 0:Accelerometer, 1:Polypower" uuid="f000ad31-0451-4000-b000-000000000000">Test Data
+        </item>
+        <item descr="bit 7: enable test mode; bit 0 controls LED" uuid="f000ad32-0451-4000-b000-000000000000">Test Config
+        </item>
+    </profile>
+    <profile>
+        <name>Accelerometer
+        </name>
+        <item uuid="f000ffa0-0451-4000-b000-000000000000">Accelerometer Service
+        </item>
+        <item descr="Write &quot;01&quot; to enable, &quot;00&quot; to disable" uuid="f000ffa1-0451-4000-b000-000000000000">Accererometer enable
+        </item>
+        <item descr="Range: 20=2G, 80=8G" uuid="f000ffa2-0451-4000-b000-000000000000">Accelerometer range
+        </item>
+        <item uuid="f000ffa3-0451-4000-b000-000000000000">Accelerometer X-coordinate
+        </item>
+        <item uuid="f000ffa4-0451-4000-b000-000000000000">Accelerometer Y-coordinate
+        </item>
+        <item uuid="f000ffa5-0451-4000-b000-000000000000">Accelerometer Z-coordinate
+        </item>
+    </profile>
+    <profile>
+        <name>Simple Keys
+        </name>
+        <item uuid="f000ffe0-0451-4000-b000-000000000000">Simple Keys Service
+        </item>
+        <item icon="simplekeys" uuid="f000ffe1-0451-4000-b000-000000000000">Key press state
+        </item>
+    </profile>
+    <profile>
+        <name>Racing Car
+        </name>
+        <item uuid="f000acc0-0451-4000-b000-000000000000">Racing Car Service
+        </item>
+        <item descr="Range: 0xCE .. 0x32" uuid="f000acc1-0451-4000-b000-000000000000">Throttle
+        </item>
+        <item descr="Range: 0xCE .. 0x32" uuid="f000acc2-0451-4000-b000-000000000000">Steering
+        </item>
+        <item descr="Not implemented" uuid="f000acc3-0451-4000-b000-000000000000">Lights/Horn
+        </item>
+    </profile>
+    <profile>
+        <name>Light Control
+        </name>
+        <item icon="light" uuid="f000ffb0-0451-4000-b000-000000000000">Light Control Service
+        </item>
+        <item descr="Range: 0x00 - 0xFF" uuid="f000ffb1-0451-4000-b000-000000000000">Red
+        </item>
+        <item descr="Range: 0x00 - 0xFF" uuid="f000ffb1-0451-4000-b000-000000000000">Green
+        </item>
+        <item descr="Range: 0x00 - 0xFF" uuid="f000ffb1-0451-4000-b000-000000000000">Blue
+        </item>
+        <item descr="Range: 0x00 - 0xFF" uuid="f000ffb1-0451-4000-b000-000000000000">White
+        </item>
+        <item descr="Range: 0x00 - 0xFF, R,G,B,W one byte for each" uuid="f000ffb1-0451-4000-b000-000000000000">Compound Value
+        </item>
+    </profile>
+    <profile>
+        <name>OAD
+        </name>
+        <item icon="oad" uuid="f000ffc0-0451-4000-b000-000000000000">OAD Service
+        </item>
+        <item uuid="f000ffc1-0451-4000-b000-000000000000">OAD Image Identify
+        </item>
+        <item uuid="f000ffc2-0451-4000-b000-000000000000">OAD Image Block
+        </item>
+        <item uuid="f000ffc3-0451-4000-b000-000000000000">OAD Image Count
+        </item>
+        <item uuid="f000ffc4-0451-4000-b000-000000000000">OAD Image Status
+        </item>
+        <item uuid="f000ffc5-0451-4000-b000-000000000000">Enhanced OAD Control Point
+        </item>
+    </profile>
+    <profile>
+        <name>Simple BLE Peripheral
+        </name>
+        <item uuid="f000fff0-0451-4000-b000-000000000000">Simple Profile Service
+        </item>
+        <item uuid="f000fff1-0451-4000-b000-000000000000">Simple Profile Characteristic 1
+        </item>
+        <item uuid="f000fff2-0451-4000-b000-000000000000">Simple Profile Characteristic 2
+        </item>
+        <item uuid="f000fff3-0451-4000-b000-000000000000">Simple Profile Characteristic 3
+        </item>
+        <item uuid="f000fff4-0451-4000-b000-000000000000">Simple Profile Characteristic 4
+        </item>
+        <item uuid="f000fff5-0451-4000-b000-000000000000">Simple Profile Characteristic 5
+        </item>
+    </profile>
+    <profile>
+        <name>Project Zero
+        </name>
+        <item uuid="f0001110-0451-4000-b000-000000000000">Project Zero LED Service
+        </item>
+        <item uuid="f0001111-0451-4000-b000-000000000000">Project Zero Red LED
+        </item>
+        <item uuid="f0001112-0451-4000-b000-000000000000">Project Zero Green LED
+        </item>
+        <item uuid="f0001120-0451-4000-b000-000000000000">Project Zero Switch Service
+        </item>
+        <item uuid="f0001121-0451-4000-b000-000000000000">Project Zero Right Switch
+        </item>
+        <item uuid="f0001122-0451-4000-b000-000000000000">Project Zero Left Switch
+        </item>
+        <item uuid="f0001130-0451-4000-b000-000000000000">Project Zero Stream Service
+        </item>
+        <item uuid="f0001131-0451-4000-b000-000000000000">Project Zero Stream Data
+        </item>
+        <item uuid="f0001132-0451-4000-b000-000000000000">Project Zero Stream Setting
+        </item>
+    </profile>
+    <profile>
+        <name>DMM
+        </name>
+        <item uuid="00001180-0000-1000-8000-00805f9b34fb">Remote Display Service
+        </item>
+        <item uuid="00001181-0000-1000-8000-00805f9b34fb">Remote Display Node Data
+        </item>
+        <item uuid="00001182-0000-1000-8000-00805f9b34fb">Remote Display Node Report Interval
+        </item>
+        <item uuid="00001183-0000-1000-8000-00805f9b34fb">Remote Display Concentrator LED
+        </item>
+        <item uuid="00001184-0000-1000-8000-00805f9b34fb">Remote Display Node Address
+        </item>
+        <item uuid="f0001180-0451-4000-b000-000000000000">Remote Display Service
+        </item>
+        <item uuid="f0001181-0451-4000-b000-000000000000">Remote Display Node Data
+        </item>
+        <item uuid="f0001182-0451-4000-b000-000000000000">Remote Display Node Report Interval
+        </item>
+        <item uuid="f0001183-0451-4000-b000-000000000000">Remote Display Concentrator LED
+        </item>
+        <item uuid="f0001184-0451-4000-b000-000000000000">Remote Display Node Address
+        </item>
+        <item uuid="f0001190-0451-4000-b000-000000000000">TI DMM Provisioning Interface Service
+        </item>
+        <item uuid="f0001191-0451-4000-b000-000000000000">TI DMM Provisioning Network PAN ID
+        </item>
+        <item uuid="f0001192-0451-4000-b000-000000000000">TI DMM Provisioning Extended Network PAN ID
+        </item>
+        <item uuid="f0001193-0451-4000-b000-000000000000">TI DMM Sensor operating frequency
+        </item>
+        <item uuid="f0001194-0451-4000-b000-000000000000">TI DMM Provisioning Network Channel Mask
+        </item>
+        <item uuid="f0001195-0451-4000-b000-000000000000">TI DMM IEEE FFD address
+        </item>
+        <item uuid="f0001196-0451-4000-b000-000000000000">TI DMM Provisioning Default Network Key
+        </item>
+        <item uuid="f0001197-0451-4000-b000-000000000000">TI DMM Provisioning Start Network Provisioning
+        </item>
+        <item uuid="f0001198-0451-4000-b000-000000000000">TI DMM Provisioning Network Provisioning State
+        </item>
+        <item uuid="f00011a0-0451-4000-b000-000000000000">ZigBee Light Switch Profile
+        </item>
+        <item uuid="f00011a1-0451-4000-b000-000000000000">ZigBee Light Switch On/Off
+        </item>
+        <item uuid="f00011a2-0451-4000-b000-000000000000">ZigBee Light Switch Target Address Type
+        </item>
+        <item uuid="f00011a3-0451-4000-b000-000000000000">ZigBee Light Switch Target Address
+        </item>
+        <item uuid="f00011a4-0451-4000-b000-000000000000">ZigBee Light Switch Battery Level
+        </item>
+        <item uuid="f00011a5-0451-4000-b000-000000000000">ZigBee Light Switch Target Endpoint
+        </item>
+    </profile>
+    <profile>
+        <name>LPSTK
+        </name>
+        <item uuid="f000ffa0-0451-4000-b000-000000000000">Accelerometer Service
+        </item>
+        <item uuid="f000ffa1-0451-4000-b000-000000000000">Accelerometer Data
+        </item>
+        <item uuid="f000ffa2-0451-4000-b000-000000000000">Accelerometer Config
+        </item>
+        <item uuid="f000ffa3-0451-4000-b000-000000000000">Accelerometer Period
+        </item>
+        <item uuid="f000ffa4-0451-4000-b000-000000000000">Accelerometer XXXX
+        </item>
+        <item uuid="f000ffa5-0451-4000-b000-000000000000">Accelerometer YYYY
+        </item>
+    </profile>
+</gattuuid>

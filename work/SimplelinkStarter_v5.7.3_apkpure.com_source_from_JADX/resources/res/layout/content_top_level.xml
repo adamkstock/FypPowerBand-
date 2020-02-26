@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:padding="0dp" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.p000v4.widget.SwipeRefreshLayout android:id="@+id/swipeContainer" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <ScrollView android:id="@+id/scrollView" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:nestedScrollingEnabled="false">
+                <TableLayout android:id="@+id/deviceTableLayout" android:layout_width="match_parent" android:layout_height="match_parent" android:stretchColumns="0" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:showDividers="none|beginning|middle|end"/>
+            </ScrollView>
+        </android.support.p000v4.widget.SwipeRefreshLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/statusText" android:layout_width="match_parent" android:layout_height="wrap_content" android:textAlignment="center"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:background="@color/ti_cyan" android:layout_width="match_parent" android:layout_height="30dp">
+            <ImageView android:id="@+id/filter_icon" android:paddingLeft="5dp" android:paddingTop="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/filter_icon" android:contentDescription="@string/ti_logo"/>
+            <TextView android:textColor="@color/ti_table_background" android:gravity="center" android:id="@+id/filter_status" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:background="#000000" android:layout_width="match_parent" android:layout_height="40dp">
+            <ImageView android:id="@+id/imageView25" android:paddingLeft="5dp" android:paddingTop="7dp" android:paddingRight="5dp" android:layout_width="130dp" android:layout_height="wrap_content" android:src="@mipmap/ti_logo_vector_with_text" android:contentDescription="@string/ti_logo"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

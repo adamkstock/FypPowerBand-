@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <!--  Button to create user screen -->
+    <Button android:id="@+id/btnDeleteUser"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete a user"
+        android:layout_marginTop="25dip"/>
+
+    <!--  Button to toggle led  -->
+    <Button
+        android:id="@+id/btnLed0Tog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:text="Toggle Led 0" />
+
+    <Button
+        android:id="@+id/btnLed1Tog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:text="Toggle Led 1" />
+
+
+</LinearLayout>
