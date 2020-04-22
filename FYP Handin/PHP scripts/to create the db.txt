@@ -1,0 +1,12 @@
+CREATE DATABASE FYPPowerband002;
+
+
+
+CREATE TABLE users(
+id int(11) primary key auto_increment,
+forename varchar(100) not null,
+surname varchar(100) not null,
+bandstatus int(11) not null,
+created_at timestamp default now(),
+updated_at timestamp
+);
